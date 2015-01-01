@@ -26,11 +26,3 @@ var closePanel = function () {
 
         makeAllFormSubmitOnEnter();
     });
-
-
-
-
-
-$(document).ready(function() {
-  $('#simple-menu').sidr();
-});

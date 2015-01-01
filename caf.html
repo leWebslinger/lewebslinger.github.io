@@ -9,13 +9,26 @@
 	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp=AIzaSyAUOK9JHIsOW_EQe8adkcaDValL9ZTwHjM"></script>
 	<script type="text/javascript" src="js/functions.js"></script>
 	<script src="def/listadef.txt"></script>
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jscript.js"></script>
+
 </head>
    
 <body>
-
-
+	<a id="simple-menu" href="#sidr">Toggle menu</a>
+ 
+<div id="sidr">
+  <!-- Your content -->
+  <ul>
+    <li><a href="#">List 1</a></li>
+    <li class="active"><a href="#">List 2</a></li>
+    <li><a href="#">List 3</a></li>
+  </ul>
+</div>
+ 
+<script>
+(document).ready(function() {
+  ('#simple-menu').sidr();
+});
+</script>
 	<div id="panel">
 		<input id="address" type="textbox" placeholder="La tua via, Città o Comune" autofocus />
 		<input type="submit" value="CAF" onclick="codeAddress()" />
@@ -27,7 +40,8 @@
   
    </div>
    <div id="directions-panel"><div id="panel-content"><a onClick="closePanel()" href="#" style="text-align:right;">(chiudi pannello)</a></div></div>    
-  
+      <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jscript.js"></script>
 </body>
     
 </html>
