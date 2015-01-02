@@ -94,11 +94,7 @@
 			position: google.maps.ControlPosition.RIGHT_BOTTOM
 		},
 		
-		zoomControl: true,
-		zoomControlOptions: {
-			style: google.maps.ZoomControlStyle.LARGE,
-			position: google.maps.ControlPosition.LEFT_TOP
-		},
+
 		scaleControl: true,
 		streetViewControl: true,
 		streetViewControlOptions: {
