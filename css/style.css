@@ -11,10 +11,12 @@ html,body,#map-canvas{height:100%;margin:0;padding:0; overflow:hidden;}
 #panel-content{padding: 1em; font-family:"Gill Sans","Gill Sans MT","Myriad Pro","DejaVu Sans Condensed",Helvetica,Arial,sans-serif;}
 
 
-#simple-menu a img {float:right; position: absolute; top:25px; right:25px; width:40px; background-color: #dd1231}
+#responsive-menu-button a img {float:right; position: absolute; top:25px; right:25px; width:40px; }
 
 
 #mobile-header {
+    margin: 0px;
+   background-color: #cc0001;
     display: none;
 }
 @media only screen and (max-width: 767px){
@@ -24,6 +26,24 @@ html,body,#map-canvas{height:100%;margin:0;padding:0; overflow:hidden;}
 }
 
 
+#screen-header {
+        margin: 0px;
+   background-color: #cc0001;
+    display: none;
+}
+@media only screen and (min-width: 767px){
+    #screen-header {
+        display: block;
+    }
+}
+
+
+#screen-header li { 
+    margin-right: 20px;
+    background-color: #cc0001;
+display: inline; 
+    font-family:"Gill Sans","Gill Sans MT","Myriad Pro","DejaVu Sans Condensed",Helvetica,Arial,sans-serif;}
+}
 
 .gm-style-iw h2{margin:0}
 .gm-style-iw {
