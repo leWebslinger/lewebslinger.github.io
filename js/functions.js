@@ -57,6 +57,7 @@
 		directionsDisplay = new google.maps.DirectionsRenderer();
 	  geocoder = new google.maps.Geocoder();
 	  var latlng = new google.maps.LatLng(45.070288,7.6786045999999715);
+        if (screen.width< 765){
 	  var mapOptions = {
 		zoom: 9,
 		center: latlng,
@@ -80,6 +81,37 @@
 			position: google.maps.ControlPosition.LEFT_TOP
 		}
 	  }
+      }
+      else if (screen.width> 765){
+      
+      
+      var mapOptions = {
+		zoom: 9,
+		center: latlng,
+		mapTypeControl: true,
+		mapTypeControlOptions: {
+			style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
+			position: google.maps.ControlPosition.RIGHT_BOTTOM
+		},
+		
+		zoomControl: true,
+		zoomControlOptions: {
+			style: google.maps.ZoomControlStyle.LARGE,
+			position: google.maps.ControlPosition.LEFT_TOP
+		},
+		scaleControl: true,
+		streetViewControl: true,
+		streetViewControlOptions: {
+			position: google.maps.ControlPosition.LEFT_TOP
+		}
+      
+      
+      
+      }
+      }
+        
+        
+        
 	  map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 		directionsDisplay.setMap(map);
 	}
