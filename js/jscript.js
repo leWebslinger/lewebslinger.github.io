@@ -43,12 +43,8 @@ $(document).ready(function() {
       name: 'sidr-main',
       source: '#navigation'
     });
-
-});
-
-
-
-$(window).touchwipe({
+    
+    $(window).touchwipe({
         wipeLeft: function() {
           // Close
           $.sidr('close', 'sidr-main');
@@ -59,3 +55,9 @@ $(window).touchwipe({
         },
         preventDefaultEvents: false
       });
+
+});
+
+
+
+
