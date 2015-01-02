@@ -29,10 +29,7 @@ var closePanel = function () {
 
 
 
-    $('#responsive-menu-button').sidr({
-      name: 'sidr-main',
-      source: '#navigation'
-    });
+
 
 $(document).ready(function() {
   $('#simple-menu').sidr();
