@@ -32,5 +32,17 @@ var closePanel = function () {
 
 
 $(document).ready(function() {
-  $('#simple-menu').sidr();
+  $('#simple-menu').sidr({
+      side: 'right'
+  
+  });
 });
+
+$(document).ready(function() {
+    $('#responsive-menu-button').sidr({
+      name: 'sidr-main',
+      source: '#navigation'
+    });
+
+});
+
