@@ -26,3 +26,14 @@ var closePanel = function () {
 
         makeAllFormSubmitOnEnter();
     });
+
+
+
+    $('#responsive-menu-button').sidr({
+      name: 'sidr-main',
+      source: '#navigation'
+    });
+
+$(document).ready(function() {
+  $('#simple-menu').sidr();
+});
