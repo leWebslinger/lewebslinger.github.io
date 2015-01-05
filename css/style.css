@@ -64,8 +64,8 @@ li a {
 }
 
 li a:hover{
-    border-right: 2px black solid;
-    border-left: 2px black solid;
+    text-decoration: underline;
+    color: rgb(255, 223, 0);
 }
     
 ul{
