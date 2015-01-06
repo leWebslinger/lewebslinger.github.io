@@ -44,7 +44,10 @@ $(document).ready(function() {
       source: '#navigation'
     });
     
-    $(window).touchwipe({
+    
+    
+    //touchswipe disabled
+/* $(window).touchwipe({
         wipeLeft: function() {
           // Close
           $.sidr('close', 'sidr-main');
@@ -54,7 +57,7 @@ $(document).ready(function() {
           $.sidr('open', 'sidr-main');
         },
         preventDefaultEvents: false
-      });
+      });*/
 
 });
 

@@ -1,74 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-	<meta charset="utf-8" />
-	<title>Trova il tuo caf</title>   
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/jquery.sidr.dark.css" />
-	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp=AIzaSyAUOK9JHIsOW_EQe8adkcaDValL9ZTwHjM"></script>
-	<script type="text/javascript" src="js/functions.js"></script>
-	<script src="def/listadef.txt"></script>
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery.sidr.min.js"></script>
-    <script type="text/javascript" src="js/jquery.touchwipe.js"></script>
-    <script type="text/javascript" src="js/jscript.js"></script>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta charset="utf-8" />
+<title>Trova il tuo caf</title>   
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery.sidr.dark.css" />
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp=AIzaSyAUOK9JHIsOW_EQe8adkcaDValL9ZTwHjM"></script>
+<script type="text/javascript" src="js/functions.js"></script>
+<script src="def/listadef.txt"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.sidr.min.js"></script>
+<script type="text/javascript" src="js/jscript.js"></script>
 </head>
-   
+
 <body>
 
 <div id="mobile-header">
-    <a id="responsive-menu-button" href="#sidr-main"><img src="img/menu.png" /></a>
+<a id="responsive-menu-button" href="#sidr-main"><img src="img/menu.png" /></a>
 </div>
 
 <div id="screen-header" >
-       <nav class="nav" style="height:40px" >
-        <ul>
-        
-            <li><a href="#download">Download</a></li>
-            <li><a href="#getstarted">Get started</a></li>
-            <li><a href="#usage">Demos &amp; Usage</a></li>
-            <li><a href="#documentation">Documentation</a></li>
-            <li><a href="#themes">Themes</a></li>
-            <li><a href="#support">Support</a></li>
-        </ul>
-    </nav>
+   <nav class="nav" style="height:40px" >
+    <ul>
+
+        <li><a href="#download">Download</a></li>
+        <li><a href="#getstarted">Get started</a></li>
+        <li><a href="#usage">Demos &amp; Usage</a></li>
+        <li><a href="#documentation">Documentation</a></li>
+        <li><a href="#themes">Themes</a></li>
+        <li><a href="#support">Support</a></li>
+    </ul>
+</nav>
 </div>
 
 
 
-	<div id="panel">
-		<input id="address" type="textbox" placeholder="La tua via, Città o Comune" autofocus />
-		<input type="submit" value="CAF" onclick="codeAddress()" />
-	</div>
-     
+<div id="panel">
+    <input id="address" type="textbox" placeholder="La tua via, Città o Comune" autofocus />
+    <input type="submit" value="CAF" onclick="codeAddress()" />
+</div>
 
-  <div id="map-canvas"></div>
-        <div id="directions-panel"><div id="panel-content"><a onClick="closePanel()" href="#" style="text-align:right;">(chiudi pannello)</a></div></div>  
-   
-    
+
+<div id="map-canvas"></div>
+    <div id="directions-panel"><div id="panel-content"><a onClick="closePanel()" href="#" style="text-align:right;">(chiudi pannello)</a></div></div>  
+
+
 <div id="navigation">
-    <class nav></class>
-        <ul>
-            <li><a href="#download">Download</a></li>
-            <li><a href="#getstarted">Get started</a></li>
-            <li><a href="#usage">Demos &amp; Usage</a></li>
-            <li><a href="#documentation">Documentation</a></li>
-            <li><a href="#themes">Themes</a></li>
-            <li><a href="#support">Support</a></li>
-        </ul>
-   
+<class nav></class>
+    <ul>
+        <li><a href="#download">Download</a></li>
+        <li><a href="#getstarted">Get started</a></li>
+        <li><a href="#usage">Demos &amp; Usage</a></li>
+        <li><a href="#documentation">Documentation</a></li>
+        <li><a href="#themes">Themes</a></li>
+        <li><a href="#support">Support</a></li>
+    </ul>
+
 </div>
 </html>
-    
+
 </body>
-
-
-<!-- 
-
-LOG MODIFICHE:
-
-- Risistemato cartelle e codice in maniera pulita e leggibile
-- I tag che non hanno bisogno di chiusura si autochiudono con la slash prima della parentesi di chiusura
-- Aggiungo tag <form> in #panel, ora prende l'invio alla battitura dell'indirizzo come avvio ricerca
-- Reimpostate le cartelle di presentazione del punto geolocalizzato (ora segna indirizzo poi città) e le informazioni sono tutte visibili non sovraccavallate e ben leggibili
