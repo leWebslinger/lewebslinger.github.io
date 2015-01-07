@@ -236,8 +236,8 @@
 			  
 			
 			matrix.sort(sortFunction);
-			
-			 for(m = 0; m <10; m++){    
+			var choise=document.getElementById('n_search').value
+			 for(m = 0; m <choise; m++){    
 			 var caflat= parseFloat(matrix[m][4]);
 			 var caflong = parseFloat(matrix[m][5]);   
 			 var poscaf = new google.maps.LatLng( caflat , caflong )
