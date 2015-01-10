@@ -1,4 +1,3 @@
-@@ -1,82 +0,0 @@
 /**
  * jQuery Plugin to obtain touch gestures from iPhone, iPod Touch and iPad, should also work with Android mobile phones (not tested yet!)
  * Common usage: wipe images (left and right to show the previous or next image)
@@ -81,4 +80,3 @@
    };
  
  })(jQuery);
- No newline at end of file
