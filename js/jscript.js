@@ -16,10 +16,22 @@ var makeAllFormSubmitOnEnter = function () {
     $('#address').live('keypress', function (e) {
 
         if (e.which && e.which == 13) {
+            document.getElementById("address").blur()
             codeAddress();
             return false;
         } else {
             return true;
+        }
+    });
+        $('#n_search').live('keypress', function (e) {
+
+        if (e.which && e.which == 13) {
+            codeAddress();
+
+            return false;
+        } else {
+            return true;
+            
         }
     });
 };
@@ -28,6 +40,11 @@ makeAllFormSubmitOnEnter();
 });
 
 
+$(document).ready(function(){
+  $("").blur(function(){
+    document.getElementById("address").blur()
+  });
+});
 
 
 
@@ -44,17 +61,6 @@ name: 'sidr-main',
 source: '#navigation'
 });
 
-$(window).touchwipe({
-wipeLeft: function() {
-  // Close
-  $.sidr('close', 'sidr-main');
-},
-wipeRight: function() {
-  // Open
-  $.sidr('open', 'sidr-main');
-},
-preventDefaultEvents: false
-});
 
 });
 

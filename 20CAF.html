@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script type="text/javascript">
-<!--
-if (screen.width <= 699) {
-document.location = "10CAF.html";
-}
-//-->
-</script>
 	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 	<meta charset="utf-8" />
 	<title>Trova il tuo caf</title>   
@@ -15,10 +8,11 @@ document.location = "10CAF.html";
     <link rel="stylesheet" type="text/css" href="css/jquery.sidr.dark.css" />
 	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp=AIzaSyAUOK9JHIsOW_EQe8adkcaDValL9ZTwHjM"></script>
 	<script type="text/javascript" src="js/functions.js"></script>
-    <script type="text/javascript" src="js/CodeAdress.js"></script>
+    <script type="text/javascript" src="js/CodeAdress20.js"></script>
 	<script src="def/listadef.txt"></script>
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.sidr.min.js"></script>
+    <script type="text/javascript" src="js/jquery.touchwipe.js"></script>
     <script type="text/javascript" src="js/jscript.js"></script>
     
     <script>
@@ -31,13 +25,13 @@ document.location = "10CAF.html";
   ga('send', 'pageview');
 
 </script>
-      
+    
 </head>
    
 <body>
 
 <div id="mobile-header">
-    <a id="responsive-menu-button" href="#navigation"><img src="img/menu.png" /></a>
+    <a id="responsive-menu-button" href="#sidr-main"><img src="img/menu.png" /></a>
 </div>
 
 <div id="screen-header" >
@@ -46,27 +40,19 @@ document.location = "10CAF.html";
             <li><a href="#ISEE">ISEE</a></li>
             <li><a href="#TASSE UNIVERSITARIE">TASSE UNIVERSITARIE</a></li>
             <li><a href="#CHI SIAMO">CHI SIAMO</a></li>
-            <li><a href="istruzioni.html">ISTRUZIONI</a></li>
-              <li><a href="index.html">TROVA CAF</a></li>
+            <li><a href="#ISTRUZIONI">ISTRUZIONI</a></li>
+              <li><a href="#TROVA CAF">TROVA CAF</a></li>
         </ul>
     </nav>
 </div>
 
-    
-    <div id="panel">
-		<input id="address" type="textbox" placeholder="La tua via, Città o Comune" autofocus />
-                            <select id="n_search">
-            		<option value="5">I 5 pi&ugrave; vicini</option>
-            		<option value="10">I 10 pi&ugrave; vicini</option>
-            		<option value="20">I 20 pi&ugrave; vicini</option>
-                     <option value="30">I 30 pi&ugrave; vicini</option>   
-            		<option value="264">Tutti</option>
-            	</select>
-      <input type="submit" value="CAF" onclick="codeAddress()">
-    </div>
 
 
+	<div id="panel">
+		<input id="address" type="textbox" placeholder="La tua via, Città o Comune" />
 
+		<input type="submit" value="CAF" onclick="codeAddress()" />
+	</div>
 
     
 
@@ -79,7 +65,7 @@ document.location = "10CAF.html";
            <li><a href="#ISEE">ISEE</a></li>
             <li><a href="#TASSE UNIVERSITARIE">TASSE UNIVERSITARIE</a></li>
             <li><a href="#CHI SIAMO">CHI SIAMO</a></li>
-            <li><a href="istruzioni.html">ISTRUZIONI</a></li>
+            <li><a href="#ISTRUZIONI">ISTRUZIONI</a></li>
             <li><a  value="5" href="05CAF.html">TROVA i 5 CAF pi&ugrave; vicini</a></li>
             <li><a  value="5" href="10CAF.html">TROVA i 10 CAF pi&ugrave; vicini</a></li>
             <li><a  value="5" href="20CAF.html">TROVA i 20 CAF pi&ugrave; vicini</a></li>
