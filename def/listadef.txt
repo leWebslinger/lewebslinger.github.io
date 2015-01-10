@@ -349,7 +349,7 @@ classe115 = [  "  Pinerolo "  ,  "  C.so Torino 18 "  ,  "  0121 361611 "  ,  " 
 classe116 = [  "  Ciriè "  ,  "  C.so Nazioni Unite 64 "  ,  "  011 9224803 "  ,  "  CAF CISL "   ,  " 45.23765 "  ,  " 7.606719999999996 ", " "]
 
 
-classe117 = [  "  Settimo T.se "  ,  "  P.za Vittorio Veneto 6 "  ,  "  011 8169811 "  ,  "  CAF CISL "   ,  " 45.25725 "  ,  " 9.201699100000042 ", " "]
+classe117 = [  "  Settimo Torinese "  ,  "  P.za Vittorio Veneto 6 "  ,  "  011 8169811 "  ,  "  CAF CISL "   ,  " 45.1363748 "  ,  " 7.7709125 ", " "]
 
 
 classe118 = [  "  Moncalieri "  ,  "  Via M. della Libertà 29 "  ,  "  011 6433816 "  ,  "  CAF CISL "   ,  " 45.0021175 "  ,  " 7.656054400000016 ", " "]
@@ -1586,6 +1586,7 @@ classe263 ,
 
 
 classe264]
+
 
 
 
