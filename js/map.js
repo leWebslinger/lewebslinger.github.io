@@ -1,4 +1,3 @@
-
 var directionsService = new google.maps.DirectionsService();
 var geocoder;
 var map;
@@ -7,8 +6,6 @@ var start;
 var end;
 var directionsDisplay;
 var infowindow;
-
-
 
 function calcRoute(start, end, mode) {
    if(mode == 0){
@@ -35,7 +32,7 @@ var request = {
   directionsService.route(request, function(response, status) {
   if (status == google.maps.DirectionsStatus.OK) {
 
-     map_panel = document.getElementById('map-canvas');
+     map_panel = document.getElementById('mapCanvas');
      map_panel.style.height = "70%";
 
      dir_panel = document.getElementById('directions-panel');
@@ -47,11 +44,6 @@ var request = {
      }
   });
      }
-
-
-
-
-
 
 function initialize() {
 directionsDisplay = new google.maps.DirectionsRenderer();
@@ -108,7 +100,7 @@ streetViewControlOptions: {
 
 
 
-map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+map = new google.maps.Map(document.getElementById('mapCanvas'), mapOptions);
 directionsDisplay.setMap(map);
 }
 
@@ -160,5 +152,4 @@ for (var i = 0; i < markers.length; i++) {
 markers[i].setMap(map);
 }
 }
-
 
