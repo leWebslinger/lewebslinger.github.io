@@ -100,6 +100,10 @@ $(document).ready(function(e) {
 		$("#iseeText").hide();
 	});
 	
+    	$(".img").click(function(){
+	codeAddress();
+	});
+    
 		
 	google.maps.event.addDomListener(window, 'load', initialize);
 	

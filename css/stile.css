@@ -87,8 +87,8 @@ div#header ul#desktop li.input input[type=textbox],input[type=textbox]:focus{
 	color: #fff;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	font-size:medium;
-	text-transform:uppercase;
-	font-weight:bold;
+	text-transform:lowercase;
+	font-weight:normal;
 	cursor:pointer;
 	}
 
