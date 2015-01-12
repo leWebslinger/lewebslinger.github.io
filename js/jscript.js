@@ -15,7 +15,7 @@ $(document).ready(function(e) {
 	$("#menu").click(function(){
 		if (mobileMenu == 0){
 					$("#leftPanel").show('slide', 200);
-					$("#container").animate({left:'70%'},200);
+					$("#container").animate({left:'100%'},200);
 					openInfo = 1;
 				} else {
 					$("#leftPanel").hide('slide', 200);
@@ -72,32 +72,19 @@ $(document).ready(function(e) {
 	});
 	
 	$(".isee").click(function(){
-		$("#istrText").hide();
-		$("#chiText").hide();
-		$("#tasseText").hide();
-		$("#iseeText").show();
+		$("#iseeText").toggle();
 	});
 	
 	$(".istr").click(function(){
-		$("#istrText").show();
-		$("#chiText").hide();
-		$("#tasseText").hide();
-		$("#iseeText").hide();
-	});
-	
-	$(".chi").click(function(){
-		$("#istrText").hide();
-		$("#chiText").show();
-		$("#tasseText").hide();
-		$("#iseeText").hide();
+		$("#iseeText").toggle();
 	});
 	
 	$(".tasse").click(function(){
-		
-		$("#istrText").hide();
-		$("#chiText").hide();
-		$("#tasseText").show();
-		$("#iseeText").hide();
+		$("#iseeText").toggle();
+	});
+	
+	$(".ichi").click(function(){
+		$("#iseeText").toggle();
 	});
 	
     	$(".img").click(function(){

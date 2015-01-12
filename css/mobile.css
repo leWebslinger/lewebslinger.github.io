@@ -42,26 +42,40 @@ div#mapCanvas{
 	padding:0; 
 	overflow:hidden;}
 
-div#leftPanel p{
-	text-align:justify;
-	line-height:normal;
+div#leftPanel h1{
+	line-height:12px;
 	font-size:2em;
-	padding: 20px;
 	color:#fff;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	font-weight:bold;
 	text-decoration:none;
+	padding:1em;
 }
+
+div#leftPanel p, .lista {
+	width:80%;
+	padding:1em;
+	margin:auto;
+	text-align:justify;
+	line-height:normal;
+	font-size:1em;
+	color:#fff;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-weight:normal;
+	text-decoration:none;
+}
+
 
 div#leftPanel{
 	height:100%;
 	background:#333;
-	width:70%;
+	width:100%;
 	float:left;
 	position:absolute;
 	top:0;
 	left:0;
 	display:none;
+	overflow-y:scroll;
 }
 
 div#leftPanel ul#mobileMenu{
@@ -72,7 +86,7 @@ div#leftPanel ul#mobileMenu{
 div#leftPanel ul#mobileMenu a {
 	color: #fff;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	font-size:1.2em;
+	font-size:2em;
 	font-weight:normal;
 	cursor:pointer;
 	font-weight:bold;
@@ -91,7 +105,7 @@ div#leftPanel input[type=textbox], input[type=textbox]:focus, input[type=textbox
 	text-transform:lowercase;
 	font-weight:normal;
 	cursor:pointer;
-	width:50%;
+	width:70%;
 }
 
 div#leftPanel img{
@@ -110,3 +124,57 @@ div#headerMenu{
 	padding:0;
 	z-index: 999;
 }
+
+/* INFO PANEL TESTI */
+div#iseeText {display:none;}
+
+div#istrText {display:none;} 
+
+div#chiText {display:none;}
+
+div#tasseText {display:none;}
+
+/* INFO WINDOWS */
+
+.gm-style-iw h2{margin:0}
+.gm-style-iw {
+left:0 !important;
+top:0 !important;
+width:100%  !important;
+padding:1em;
+overflow:hidden;
+}
+
+
+
+/* SCROLL BARS */
+
+::-webkit-scrollbar {
+		width: .5em;
+
+}
+	
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+		display: none;
+		height: 1em;
+}
+		
+::-webkit-scrollbar-track-piece {
+		background-color: #333;
+		width:.2em;
+		margin-right:20px;
+}
+	
+::-webkit-scrollbar-thumb:vertical {
+		height: 20px;
+		background-color: #ccc;
+		width:.5em;
+}
+	
+::-webkit-scrollbar-thumb:horizontal {
+		width: 50px; 		
+		background-color: #39F;
+		-webkit-border-radius: 3px;
+}
+
