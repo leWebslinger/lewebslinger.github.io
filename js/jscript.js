@@ -1,5 +1,6 @@
 // JavaScript Document
 $(document).ready(function(e) {	
+	
 	var openInfo = 0;
 	function apriInfoPanel(){
 		if (openInfo == 0){
@@ -9,6 +10,20 @@ $(document).ready(function(e) {
 					openInfo = 1;
 				}
 	}
+	
+	$("#menu").click(function(){
+		var mobileMenu = 0;
+		
+		if (mobileMenu == 0){
+					$("#leftPanel").show('slide', 200);
+					$("#container").animate({left:'70%'},200);
+					openInfo = 1;
+				} else {
+					$("#leftPanel").hide('slide', 200);
+					$("#container").animate({left:'0'},200);
+					openInfo = 1;
+				}
+	});
 	
 	$("#close").click(function(){
 					$("#infoPanel").hide('slide',200);
@@ -95,22 +110,14 @@ $(document).ready(function(e) {
 	
 	$("#address").keypress(function(e) {
 		    if(e.which == 13) {
-                $("#addressMobile").val('')
-    		    codeAddress();
+                codeAddress();
 				$("#address").blur();
 			}
 		});
 		
-	$("#addressMobile").keypress(function(e) {
-		if(e.which == 13) {
-            $("#address").val('');
-    		    codeAddress();
-				$("#address").blur();
-			}
-		});
 		
 		function codeAddress() {		
-var address = $('#address').val() + $('#addressMobile').val() + " Italia";
+var address = $('#address').val() +" Italia";
 if(address==" Italia"){
 alert("non funziona");}
 else{

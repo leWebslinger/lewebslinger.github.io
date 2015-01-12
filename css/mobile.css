@@ -7,7 +7,8 @@ html, body  {
 	top:0;
 	width:100%;
 	height:100%;
-	overflow:hidden;	}
+	overflow:hidden;
+	}
 
 div#container{
 	position:relative;
@@ -30,4 +31,107 @@ div#header{
 	z-index: 999;
 }
 
-div#header img {height:100%;}
+div#header img {height:100%; cursor:pointer; margin-left:.5em;}
+
+div#mapCanvas{
+	position:relative;
+	top:10%;
+	left:0;
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0; 
+	overflow:hidden;}
+
+div#leftPanel p{
+	text-align:justify;
+	line-height:normal;
+	font-size:2em;
+	padding: 20px;
+	color:#fff;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+div#leftPanel{
+	height:100%;
+	background:#333;
+	width:70%;
+	float:left;
+	position:absolute;
+	top:0;
+	left:0;
+	display:none;
+}
+
+div#leftPanel ul#mobileMenu{
+	list-style:none; 
+
+}
+
+div#leftPanel ul#mobileMenu li a, a:visited {
+	display:block;
+	width:100%;
+	height:40px;
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+div#leftPanel ul#mobileMenu li a:active {
+	display:block;
+	width:100%;
+	height:40px;
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	text-transfor:uppercase;
+}
+
+div#leftPanel ul#mobileMenu li {
+	display:block;
+	width:100%;
+	height:40px;
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+div#leftPanel ul#mobileMenu li a{
+	display:block;
+	width:100%;
+	height:40px;
+	color:#fff;
+}
+
+div#leftPanel ul#mobileMenu li.img {
+	padding:0;
+	width:40px;}
+
+div#leftPanel ul#mobileMenu li.input {
+	padding:0;
+	margin-bottom:20px;
+}
+div#leftPanel ul#mobileMenu li.input input[type=textbox],input[type=textbox]:focus, input[type=textbox]:enabled {
+	margin:9px;
+	padding:0;
+	border:none;
+	background:none;
+	outline:0;
+	color: #fff;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:3vw;
+	text-transform:lowercase;
+	font-weight:normal;
+	cursor:pointer;
+    
+	}
+div#leftPanel ul#mobileMenu li.img img{
+	height:40px; 
+	margin:0;
+	cursor: pointer;
+	float:left;}

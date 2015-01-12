@@ -92,107 +92,7 @@ div#header ul#desktop li.input input[type=textbox],input[type=textbox]:focus{
 	cursor:pointer;
 	}
 
-/*
-a#mobile{
-	line-height:40px;
-	padding:5px;
-	margin:0;
-}
 
-a#mobile img {
-	height:100%;}
-
-@media (orientation:landscape){
-	a#mobile{display:none;}
-}
-
-@media (orientation:portrait){
-	ul#desktop{display:none;}
-	#header{height:10%;}
-	}
-	
-div#leftPanel{
-	height:100%;
-	background:#333;
-	width:70%;
-	float:left;
-	position:absolute;
-	top:0;
-	left:0;
-	display:none;
-}
-
-div#leftPanel ul#mobileMenu{
-	list-style:none; 
-
-}
-
-div#leftPanel ul#mobileMenu li a, a:visited {
-	display:block;
-	width:100%;
-	height:40px;
-	color:#fff;
-	text-decoration:none;
-	font-weight:bold;
-	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-}
-
-div#leftPanel ul#mobileMenu li a:active {
-	display:block;
-	width:100%;
-	height:40px;
-	color:#fff;
-	text-decoration:none;
-	font-weight:bold;
-	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	text-transfor:uppercase;
-}
-
-div#leftPanel ul#mobileMenu li {
-	display:block;
-	width:100%;
-	height:40px;
-	color:#fff;
-	text-decoration:none;
-	font-weight:bold;
-	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-}
-
-div#leftPanel ul#mobileMenu li a{
-	display:block;
-	width:100%;
-	height:40px;
-	color:#fff;
-}
-
-div#leftPanel ul#mobileMenu li.img {
-	padding:0;
-	width:40px;}
-
-div#leftPanel ul#mobileMenu li.input {
-	padding:0;
-	margin-bottom:20px;
-}
-div#leftPanel ul#mobileMenu li.input input[type=textbox],input[type=textbox]:focus, input[type=textbox]:enabled {
-	margin:9px;
-	padding:0;
-	border:none;
-	background:none;
-	outline:0;
-	color: #fff;
-	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	font-size:medium;
-	text-transform:lowercase;
-	font-weight:normal;
-	cursor:pointer;
-    
-	}
-div#leftPanel ul#mobileMenu li.img img{
-	height:40px; 
-	margin:0;
-	cursor: pointer;
-	float:left;}
-*/
 
 div#mapCanvas{
 	position:relative;
@@ -300,9 +200,6 @@ div#infoPanel{
 	overflow-y: scroll;	
 }
 
-div#infopanel;
-/*div.box {overflow-y: scroll; height: 50%;}*/
-
 div#iseeText {display:none;}
 
 div#istrText {display:none;} 
@@ -312,20 +209,6 @@ div#chiText {display:none;}
 div#tasseText {display:none;}
 
 div#infoPanel img {height:30px; float:right; position: absolute; top:5px; right:10px; cursor:pointer;}
-/*
-div#leftPanel h1{display:none;}
-
-div#leftPanel p{
-	text-align:justify;
-	line-height:normal;
-	font-size:medium;
-	padding: 20px;
-	color:#fff;
-	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	font-weight:bold;
-	text-decoration:none;
-}
-*/
 
 .gm-style-iw h2{margin:0}
 .gm-style-iw {

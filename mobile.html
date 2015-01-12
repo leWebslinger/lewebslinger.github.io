@@ -8,19 +8,18 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
 <script type="text/javascript" src="js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="js/detectmobilebrowser.js"></script>
-<script type="text/javascript" src="js/jscript.js"></script>
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp=AIzaSyAUOK9JHIsOW_EQe8adkcaDValL9ZTwHjM"></script>
 <script type="text/javascript" src="js/map.js"></script>
 <script src="def/listadef.txt"></script>
+<script type="text/javascript" src="js/jscript.js"></script>
 
 </head>
 
 <body>
 <div id="container">
 	<div id="header">
-		<img src="img/menu.png">
+		<img src="img/menu.png" id="menu">
 	</div>
-</div>
 
 <div id="mapCanvas"></div>
 
@@ -30,5 +29,11 @@
 	</div>
 </div>  
 
+</div>
+
+<div id="leftPanel">
+
+<input id="address" type="textbox" placeholder="cerca indirizzo" autofocus />
+</div>
 </body>
 </html>
