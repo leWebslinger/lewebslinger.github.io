@@ -23,8 +23,7 @@ div#header{
 	top:0;
 	left:0;
 	width:100%;
-	height:10%;
-	min-height:40px;
+	height:3em;
 	background: #cc0001;
 	margin:0;
 	padding:0;
@@ -35,7 +34,7 @@ div#header img {height:100%; cursor:pointer; margin-left:.5em;}
 
 div#mapCanvas{
 	position:relative;
-	top:10%;
+	top:3em;
 	left:0;
 	width:100%;
 	height:100%;
@@ -70,6 +69,16 @@ div#leftPanel ul#mobileMenu{
 
 }
 
+div#leftPanel ul#mobileMenu a {
+	color: #fff;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:1.2em;
+	font-weight:normal;
+	cursor:pointer;
+	font-weight:bold;
+	text-decoration:none;
+}
+
 div#leftPanel input[type=textbox], input[type=textbox]:focus, input[type=textbox]:enabled {
 	margin:9px;
 	padding:0;
@@ -78,14 +87,25 @@ div#leftPanel input[type=textbox], input[type=textbox]:focus, input[type=textbox
 	outline:0;
 	color: #fff;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	font-size:1em;
+	font-size:1.2em;
 	text-transform:lowercase;
 	font-weight:normal;
 	cursor:pointer;
 }
 
 div#leftPanel img{
-	height:10%; 
+	height:100%; 
 	margin:0;
 	cursor: pointer;
 	float:left;}
+
+div#headerMenu{
+	top:0;
+	left:0;
+	width:100%;
+	height:3em;
+	background: #ccc;
+	margin:0;
+	padding:0;
+	z-index: 999;
+}

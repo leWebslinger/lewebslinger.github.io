@@ -11,9 +11,8 @@ $(document).ready(function(e) {
 				}
 	}
 	
+	var mobileMenu = 0;
 	$("#menu").click(function(){
-		var mobileMenu = 0;
-		
 		if (mobileMenu == 0){
 					$("#leftPanel").show('slide', 200);
 					$("#container").animate({left:'70%'},200);
@@ -21,7 +20,7 @@ $(document).ready(function(e) {
 				} else {
 					$("#leftPanel").hide('slide', 200);
 					$("#container").animate({left:'0'},200);
-					openInfo = 1;
+					openInfo = 0;
 				}
 	});
 	
