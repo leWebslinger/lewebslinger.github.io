@@ -91,6 +91,7 @@ div#leftPanel input[type=textbox], input[type=textbox]:focus, input[type=textbox
 	text-transform:lowercase;
 	font-weight:normal;
 	cursor:pointer;
+	width:80%;
 }
 
 div#leftPanel img{
