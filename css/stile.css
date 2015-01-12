@@ -273,7 +273,7 @@ div#infoPanel h1{
 }
 
 
-div#infoPanel p, ol.lista{
+div#infoPanel p, .lista {
 	width:80%;
 	padding:1em;
 	margin:auto;
@@ -286,6 +286,7 @@ div#infoPanel p, ol.lista{
 	text-decoration:none;
 }
 
+p.contatti a{color:#fff; text-decoration:underline;}
 
 div#infoPanel{
 	height:100%;
