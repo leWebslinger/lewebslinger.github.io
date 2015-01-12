@@ -43,7 +43,7 @@ div#mapCanvas{
 	overflow:hidden;}
 
 div#leftPanel h1{
-	font-size:2em;
+	font-size:1.5em;
 	color:#fff;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	font-weight:bold;
@@ -85,7 +85,7 @@ div#leftPanel ul#mobileMenu{
 div#leftPanel ul#mobileMenu a {
 	color: #fff;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	font-size:2em;
+	font-size:1.5em;
 	font-weight:normal;
 	cursor:pointer;
 	font-weight:bold;
@@ -143,10 +143,9 @@ div#tasseText {display:none;}
 	overflow:auto; 
 	display:none; 
 	z-index:999; 
-	margin:0; 
-	border: solid 1px #999;
+	margin:0;
 	position:relative;
-	top:40px; 
+	top:3em; 
 }
 
 #directions-panel a,a:visited,a:active{
