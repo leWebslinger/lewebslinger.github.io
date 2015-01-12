@@ -17,6 +17,10 @@ $(document).ready(function(e) {
 		});
 	*/	
 	
+	if (jQuery.browser.mobile){
+	window.location.replace("mobile.html");
+	}else{console.log('pc')}
+	
 	var openInfo = 0;
 	function apriInfoPanel(){
 		if (openInfo == 0){
