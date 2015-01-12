@@ -92,6 +92,7 @@ div#header ul#desktop li.input input[type=textbox],input[type=textbox]:focus{
 	cursor:pointer;
 	}
 
+/*
 a#mobile{
 	line-height:40px;
 	padding:5px;
@@ -191,6 +192,7 @@ div#leftPanel ul#mobileMenu li.img img{
 	margin:0;
 	cursor: pointer;
 	float:left;}
+*/
 
 div#mapCanvas{
 	position:relative;
@@ -259,27 +261,25 @@ div#mapCanvas{
 }
 
 #close {display:none;}
+
 div#infoPanel h1{
-	float:left;
-	display:inline-block;
 	line-height:12px;
 	font-size:large;
-	padding: 14px;
 	color:#fff;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	font-weight:bold;
 	text-decoration:none;
-
+	padding:1em;
 }
 
 
-div#infoPanel p{
+div#infoPanel p, ol.lista{
+	width:80%;
+	padding:1em;
+	margin:auto;
 	text-align:justify;
-	float:left;
-	display:inline-block;
 	line-height:normal;
 	font-size:medium;
-	padding: 20px;
 	color:#fff;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	font-weight:bold;
@@ -290,13 +290,16 @@ div#infoPanel p{
 div#infoPanel{
 	height:100%;
 	background:#333;
-	width:30%;
+	width:40%;
 	float:left;
 	position:absolute;
 	top:0;
 	left:0;
 	display:none;
+	overflow-y: scroll;	
 }
+
+div#infopanel;
 /*div.box {overflow-y: scroll; height: 50%;}*/
 
 div#iseeText {display:none;}
@@ -308,13 +311,11 @@ div#chiText {display:none;}
 div#tasseText {display:none;}
 
 div#infoPanel img {height:30px; float:right; position: absolute; top:5px; right:10px; cursor:pointer;}
-
+/*
 div#leftPanel h1{display:none;}
 
 div#leftPanel p{
 	text-align:justify;
-	float:left;
-	display:inline-block;
 	line-height:normal;
 	font-size:medium;
 	padding: 20px;
@@ -323,7 +324,7 @@ div#leftPanel p{
 	font-weight:bold;
 	text-decoration:none;
 }
-
+*/
 
 .gm-style-iw h2{margin:0}
 .gm-style-iw {
@@ -337,3 +338,34 @@ overflow:hidden;
 
 
 
+/* SCROLL BARS */
+
+
+	::-webkit-scrollbar {
+		width: .5em;
+
+}
+	
+	::-webkit-scrollbar-button:start:decrement,
+	::-webkit-scrollbar-button:end:increment {
+		display: none;
+		height: 1em;
+	}
+		
+	::-webkit-scrollbar-track-piece {
+		background-color: #333;
+		width:.2em;
+		margin-right:20px;
+		
+	}
+	
+	::-webkit-scrollbar-thumb:vertical {
+		height: 20px;
+		background-color: #ccc;
+		width:.5em;
+	}
+	
+	::-webkit-scrollbar-thumb:horizontal {
+		width: 50px; 		background-color: #39F;
+		-webkit-border-radius: 3px;
+	}

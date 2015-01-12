@@ -1,6 +1,6 @@
 // JavaScript Document
 $(document).ready(function(e) {
-	
+/*	
 	var openLeft = 0;
 		$("#mobile").click(function(){
 				if (openLeft == 0){
@@ -15,12 +15,12 @@ $(document).ready(function(e) {
 					openLeft = 0;
 				}
 		});
-		
+	*/	
 	var openInfo = 0;
 	function apriInfoPanel(){
 		if (openInfo == 0){
 					$("#infoPanel").show('slide', 200);
-					$("#container").animate({left:'30%'},200);
+					$("#container").animate({left:'40%'},200);
 					$("#close").show();
 					openInfo = 1;
 				}
