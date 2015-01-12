@@ -1,6 +1,9 @@
 // JavaScript Document
 $(document).ready(function(e) {	
 	
+	function chiudiPannello(){
+		$("#panel-content").hide();
+	}
 	var openInfo = 0;
 	function apriInfoPanel(){
 		if (openInfo == 0){
