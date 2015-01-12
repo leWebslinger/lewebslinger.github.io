@@ -8,7 +8,7 @@ $(document).ready(function(e) {
 					$("#container").animate({left:'70%'},200);
 					openLeft = 1;
 					$(".box").append($("#infoPanel").html());
-					$("#close").hide();
+					
 				} else {
 					$("#leftPanel").hide('slide',200);
 					$("#container").animate({left:'0'},200);
@@ -21,6 +21,7 @@ $(document).ready(function(e) {
 		if (openInfo == 0){
 					$("#infoPanel").show('slide', 200);
 					$("#container").animate({left:'30%'},200);
+					$("#close").show();
 					openInfo = 1;
 				}
 	}
@@ -28,6 +29,7 @@ $(document).ready(function(e) {
 	$("#close").click(function(){
 					$("#infoPanel").hide('slide',200);
 					$("#container").animate({left:'0'},200);
+					$("#close").hide();
 					openInfo = 0;
 				});
 				
