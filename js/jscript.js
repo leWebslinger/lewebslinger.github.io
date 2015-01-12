@@ -114,7 +114,7 @@ $(document).ready(function(e) {
 			}
 		});
 		
-	$(".mobileGo").keypress(function(e) {
+	$("#addressMobile").keypress(function(e) {
 		if(e.which == 13) {
     		    codeAddress();
 				$("#address").blur();
@@ -122,7 +122,7 @@ $(document).ready(function(e) {
 		});
 		
 		function codeAddress() {		
-var address = document.getElementById('address').value +" Italia";
+var address = $('#addressMobile').val() +" Italia";
 if(address==" Italia"){
     alert('Spiacenti serve un indirizzo più preciso'); }
 else{
