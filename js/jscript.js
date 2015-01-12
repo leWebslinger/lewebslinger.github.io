@@ -1,26 +1,5 @@
 // JavaScript Document
-$(document).ready(function(e) {
-/*	
-	var openLeft = 0;
-		$("#mobile").click(function(){
-				if (openLeft == 0){
-					$("#leftPanel").show('slide', 200);
-					$("#container").animate({left:'70%'},200);
-					openLeft = 1;
-					$(".box").append($("#infoPanel").html());
-					
-				} else {
-					$("#leftPanel").hide('slide',200);
-					$("#container").animate({left:'0'},200);
-					openLeft = 0;
-				}
-		});
-	*/	
-	
-	if (jQuery.browser.mobile){
-	window.location.replace("mobile.html");
-	}else{console.log('pc')}
-	
+$(document).ready(function(e) {	
 	var openInfo = 0;
 	function apriInfoPanel(){
 		if (openInfo == 0){

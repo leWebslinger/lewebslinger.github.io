@@ -14,7 +14,14 @@
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp=AIzaSyAUOK9JHIsOW_EQe8adkcaDValL9ZTwHjM"></script>
 <script type="text/javascript" src="js/map.js"></script>
 <script src="def/listadef.txt"></script>
+<script type="text/javascript">
+$(document).ready(function(e) {
 
+	if (jQuery.browser.mobile){
+	window.location.replace("mobile.html");
+	}else{console.log('pc')}
+});
+</script>
 </head>
 
 <body>
