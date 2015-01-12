@@ -109,6 +109,7 @@ $(document).ready(function(e) {
 	
 	$("#address").keypress(function(e) {
 		    if(e.which == 13) {
+                $("#addressMobile").val('')
     		    codeAddress();
 				$("#address").blur();
 			}
@@ -116,6 +117,7 @@ $(document).ready(function(e) {
 		
 	$("#addressMobile").keypress(function(e) {
 		if(e.which == 13) {
+            $("#address").val('');
     		    codeAddress();
 				$("#address").blur();
 			}
