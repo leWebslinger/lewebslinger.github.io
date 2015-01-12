@@ -94,6 +94,11 @@ $(document).ready(function(e) {
 	
     	$(".img").click(function(){
 	codeAddress();
+            $("#infoPanel").hide('slide',200);
+					$("#container").animate({left:'0'},200);
+					$("#close").hide();
+					openInfo = 0;
+				
 	});
     
 		
@@ -101,6 +106,10 @@ $(document).ready(function(e) {
 	
 	$("#address").keypress(function(e) {
 		    if(e.which == 13) {
+                $("#infoPanel").hide('slide',200);
+					$("#container").animate({left:'0'},200);
+					$("#close").hide();
+					openInfo = 0;
                 codeAddress();
 				$("#address").blur();
 			}
