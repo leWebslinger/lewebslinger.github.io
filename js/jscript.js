@@ -1,8 +1,9 @@
 // JavaScript Document
 $(document).ready(function(e) {	
 	
-	$("#chiudiPannello").click(function(){
-		$("#panel-content").hide();
+	$("#closePanel").click(function(){
+		$("#directions-panel").hide();
+		$("#mapCanvas").css("height", "100%");
 	});
 	
 	var openInfo = 0;
