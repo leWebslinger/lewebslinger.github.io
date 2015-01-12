@@ -78,7 +78,7 @@ div#leftPanel input[type=textbox], input[type=textbox]:focus, input[type=textbox
 	outline:0;
 	color: #fff;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	font-size:3em;
+	font-size:5em;
 	text-transform:lowercase;
 	font-weight:normal;
 	cursor:pointer;
