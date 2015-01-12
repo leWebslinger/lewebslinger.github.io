@@ -122,9 +122,9 @@ $(document).ready(function(e) {
 		});
 		
 		function codeAddress() {		
-var address = $('#addressMobile').val() +" Italia";
+var address = $('#address').val() + $('#addressMobile').val() + " Italia";
 if(address==" Italia"){
-    alert('Spiacenti serve un indirizzo più preciso'); }
+alert("non funziona");}
 else{
     setAllMap(null);
 markers = []
