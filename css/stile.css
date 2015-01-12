@@ -244,12 +244,10 @@ overflow:hidden;
 	}
 	
 	::-webkit-scrollbar-thumb:vertical {
-		height: 20px;
-		background-color: #ccc;
-		width:.5em;
+		display:none;
+		
 	}
 	
 	::-webkit-scrollbar-thumb:horizontal {
-		width: 50px; 		background-color: #39F;
-		-webkit-border-radius: 3px;
+		display:none;
 	}
