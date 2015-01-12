@@ -43,7 +43,6 @@ div#mapCanvas{
 	overflow:hidden;}
 
 div#leftPanel h1{
-	line-height:12px;
 	font-size:2em;
 	color:#fff;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
@@ -131,6 +130,7 @@ div#iseeText {display:none;}
 div#istrText {display:none;} 
 
 div#chiText {display:none;}
+div#chiText p a.contatti{color:#fff; font-size:1em !important; text-decoration:underline !important; text-transform:uppercase;}
 
 div#tasseText {display:none;}
 

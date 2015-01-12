@@ -76,15 +76,15 @@ $(document).ready(function(e) {
 	});
 	
 	$(".istr").click(function(){
-		$("#iseeText").toggle();
+		$("#istrText").toggle();
 	});
 	
 	$(".tasse").click(function(){
-		$("#iseeText").toggle();
+		$("#tasseText").toggle();
 	});
 	
-	$(".ichi").click(function(){
-		$("#iseeText").toggle();
+	$(".chi").click(function(){
+		$("#chiText").toggle();
 	});
 	
     	$(".img").click(function(){
