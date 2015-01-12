@@ -200,8 +200,6 @@ overflow:hidden;
 }
 	
 ::-webkit-scrollbar-thumb:horizontal {
-		width: 50px; 		
-		background-color: #39F;
-		-webkit-border-radius: 3px;
+		display:none;
 }
 
