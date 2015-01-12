@@ -134,6 +134,34 @@ div#chiText p a.contatti{color:#fff; font-size:1em !important; text-decoration:u
 
 div#tasseText {display:none;}
 
+
+/* DIRECTIONS PANEL*/
+
+#directions-panel{
+	height:0; 
+	width:100%; 
+	overflow:auto; 
+	display:none; 
+	z-index:999; 
+	margin:0; 
+	border: solid 1px #999;
+	position:relative;
+	top:40px; 
+}
+
+#directions-panel a,a:visited,a:active{
+	text-decoration:underline;
+	text-align:left;
+	width:100%;
+	display:block;
+	/*color:#129d2d*/
+}
+
+#panel-content{
+	padding: 1em; 
+	font-family:"Gill Sans","Gill Sans MT","Myriad Pro","DejaVu Sans Condensed",Helvetica,Arial,sans-serif;
+}
+
 /* INFO WINDOWS */
 
 .gm-style-iw h2{margin:0}
