@@ -106,7 +106,8 @@ a#mobile img {
 }
 
 @media (orientation:portrait){
-	ul#desktop{display:none;}}
+	ul#desktop{display:none;}
+	#header{height:2em;}}
 	
 div#leftPanel{
 	height:100%;
