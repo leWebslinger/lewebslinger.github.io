@@ -99,7 +99,7 @@ a#mobile{
 }
 
 a#mobile img {
-	height:2em;}
+	height:100%;}
 
 @media (orientation:landscape){
 	a#mobile{display:none;}
