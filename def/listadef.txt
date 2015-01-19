@@ -472,7 +472,7 @@ classe156 = [  "  Torino "  ,  "  Via Breglio 129 "  ,  "  011 214283 "  ,  "  C
 classe157 = [  "  Torino "  ,  "  Via Toce 23 "  ,  "  011 19702369 "  ,  "  CAF ITALIA "   ,  " 45.1237171 "  ,  " 7.712238599999978 ", " "]
 
 
-classe158 = [  "  Torino "  ,  "  Via Fontanesi 31 "  ,  "  011 019703228 "  ,  "  CAF ITALIA "   ,  " 45.0733707 "  ,  " 7.708696099999997 ", " "]
+classe158 = [  "  Torino "  ,  "  Via Fontanesi 31 "  ,  "  011 19703228 "  ,  "  CAF ITALIA "   ,  " 45.0733707 "  ,  " 7.708696099999997 ", " "]
 
 
 classe159 = [  "  Torino "  ,  "  Via Vigliani 185 "  ,  "  011 3179050 "  ,  "  CAF ITALIA "   ,  " 45.0175603 "  ,  " 7.655251000000021 ", " "]
