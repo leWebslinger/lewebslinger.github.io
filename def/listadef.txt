@@ -1,797 +1,758 @@
-﻿classe0 = [  "  Torino "  ,  "  Via Pietro Micca 21 "  ,  "  011 5069444 "  ,  "   CAF MCL "  ,  " 45.070288 "  ,  " 7.6786045999999715 ", " "]
+﻿classe0 = ["ALESSANDRIA" , "Via Migliara 43" , " 0131 266334" , "CAF MCL" , "44.9146" , "8.61339" , " "]
 
+classe1 = ["ASTI" , "V.le Pilone 15/17" , " 0141 599090" , "CAF MCL" , "44.9031" , "8.21477" , " "]
 
-classe1 = [  "  Torino "  ,  "  Via Prali 22 "  ,  "  011 3850360 "  ,  "  CAF MCL "   ,  " 45.0692933 "  ,  " 7.645829400000025 ", " "]
+classe2 = ["BIELLA" , "Piazza Casalengo 9/a" , " 015 403971" , "CAF MCL" , "45.5629" , "8.05834" , " "]
 
+classe3 = ["CUNEO" , "Via Stoppani 5" , " 0171 411074" , "CAF MCL" , "44.3821" , "7.54148" , " "]
 
-classe2 = [  "  Torino "  ,  "  Via Boston 72 "  ,  "  011 19885184 "  ,  "  CAF MCL "   ,  " 45.0414478 "  ,  " 7.63908600000002 ", " "]
+classe4 = ["NICHELINO" , "P.za Camandona 29" , " 011 6801114" , "CAF MCL" , "45.0017" , "7.65589" , " "]
 
+classe5 = ["NOVARA" , "Via Lazzari 7" , " 0321 612163" , "CAF MCL" , "45.4556" , "8.61482" , " "]
 
-classe3 = [  "  Torino "  ,  "  Via Montanaro 50 "  ,  "  011 866359 "  ,  "  CAF MCL "   ,  " 45.0930664 "  ,  " 7.695181300000058 ", " "]
+classe6 = ["Via Alessandro Antonelli 3" , " 0321 030435" , "TORINO" , "CAF MCL" , "40.8297" , "8.41165" , " "]
 
+classe7 = ["TORINO" , "Via Prali 22" , " 011 3850360" , "CAF MCL" , "45.0693" , "7.64581" , " "]
 
-classe4 = [  "  Torino "  ,  "  C.so Benedetto Croce 7/c "  ,  "  011 2764317 "  ,  "  CAF MCL "   ,  " 45.0227605 "  ,  " 7.646509199999969 ", " "]
+classe8 = ["TORINO" , "Via Boston 72" , " 011 19885184" , "CAF MCL" , "45.0413" , "7.63919" , " "]
 
+classe9 = ["TORINO" , "Via Montanaro 50" , " 011 866359" , "CAF MCL" , "45.0928" , "7.69502" , " "]
 
-classe5 = [  "  Nichelino "  ,  "  P.za Camandona 29 "  ,  "  011 6801114 "  ,  "  CAF MCL "   ,  " 45.0017139 "  ,  " 7.655888399999981 ", " "]
+classe10 = ["TORINO" , "C.so Benedetto Croce 16/a" , " 011 19885744" , "CAF MCL" , "45.022" , "7.64579" , " "]
 
+classe11 = ["TORINO" , "Via Lera 34/d" , " 011 19887734" , "CAF MCL" , "45.074" , "7.63826" , " "]
 
-classe6 = [  "  Asti "  ,  "  V.le Pilone 15/17 "  ,  "  0141 599090 "  ,  "  CAF MCL "  ,   " 44.9031126 "  ,  " 8.214769899999965 ", " "]
+classe12 = ["TORINO" , "Via Pietro Cossa 280" , " 011 149442811" , "CAF MCL" , "45.0953" , "7.63533" , " "]
 
+classe13 = ["VERBANIA" , "Via Belgio 55/D" , " 0323 401490" , "CAF MCL" , "45.9323" , "8.56218" , " "]
 
-classe7 = [  "  Biella "  ,  "  V.le Roma 12 "  ,  "  015 402307 "  ,  "  CAF MCL "  ,  " 45.5561823 "," 8.06509440000002 ", " "]
+classe14 = ["TORINO" , "Corso Brescia 53/A" , " 011 2873611" , "CAF CGIL" , "45.081" , "7.6936" , " "]
 
+classe15 = ["TORINO" , "P.za Rebaudengo 27" , " 011 2422225" , "CAF CGIL" , "45.1044" , "7.69535" , " "]
 
-classe8 = [  "  Biella "  ,  "  Via dei Seminari 7 "  ,  "  015 2521918 "  ,  "  CAF MCL "   ,  " 45.5659049 "  ,  " 8.052612100000033 ", " "]
+classe16 = ["TORINO" , "Via Gessi 17" , "011 3272094" , "CAF CGIL" , "45.0511" , "7.65204" , " "]
 
+classe17 = ["TORINO" , "Via Nizza 36/A" , " 011 6693801" , "CAF CGIL" , "45.0534" , "7.6754" , " "]
 
-classe9 = [  "  Alessandria "  ,  "  Via Parma 32 "  ,  "  0131 266334 "  ,  "  CAF MCL "   ,  " 44.91213 "  ,  " 8.619130000000041 ", " "]
+classe18 = ["TORINO" , "Via Sagra S.Michele 31/B" , " 011 7732289" , "CAF CGIL" , "45.0727" , "7.63125" , " "]
 
+classe19 = ["CARMAGNOLA" , "Via Fossano 2" , " 011 9620999" , "CAF CGIL" , "44.844" , "7.71477" , " "]
 
-classe10 = [  "  Cuneo "  ,  "  Via Stoppani 5 "  ,  "  0171 411074 "  ,  "  CAF MCL "   ,  " 44.3820732 "  ,  " 7.541475900000023 ", " "]
+classe20 = ["CIRIE'" , "Via Matteotti 16" , " 011 9228332" , "CAF CGIL" , "45.2336" , "7.6058" , " "]
 
+classe21 = ["COLLEGNO" , "Via Morandi 5" , " 011 4151200" , "CAF CGIL" , "45.0781" , "7.56929" , " "]
 
-classe11 = [  "  Novara "  ,  "  Via Lazzari 7 "  ,  "  0321 612163 "  ,  "  CAF MCL "   ,  " 45.4555634 "  ,  " 8.614821600000028 ", " "]
+classe22 = ["CUORGNE'" , "P.za Pinelli 13" , " 0124 651120" , "CAF CGIL" , "45.3924" , "7.64748" , " "]
 
+classe23 = ["IVREA" , "P.za Perrone 3" , " 0125 633039" , "CAF CGIL" , "45.4655" , "7.87306" , " "]
 
-classe12 = [  "  Novara "  ,  "  Via Antonelli 3 "  ,  "  0321 030435 "  ,  "  CAF MCL "   ,  " 45.4492038 "  ,  " 8.618683199999964 ", " "]
+classe24 = ["MONCALIERI" , "Via Trieste 23" , " 011 6401714" , "CAF CGIL" , "44.9865" , "7.73604" , " "]
 
+classe25 = ["ORBASSANO" , "Via Roma 17" , " 011 9019049" , "CAF CGIL" , "45.0077" , "7.53808" , " "]
 
-classe13 = [  "  Verbania "  ,  "  Via Belgio 55/D "  ,  "  0323 401490 "  ,  "  CAF MCL "   ,  " 45.9328576 "  ,  " 8.563805900000034 ", " "]
+classe26 = ["PINEROLO" , "Corso Torino 216/a" , " 0121 377416" , "CAF CGIL" , "44.8863" , "7.34042" , " "]
 
+classe27 = ["RIVOLI" , "Via Piave 23" , " 011 9502020" , "CAF CGIL" , "45.0725" , "7.52182" , " "]
 
-classe14 = [  "  Torino "  ,  "  C.so Vinzaglio 11/E "  ,  "  011 5069404 "  ,  "  CAF UNSIC "   ,  " 45.0710864 "  ,  " 7.6694287999999915 ", " "]
+classe28 = ["SETTIMO TORINESE" , "Via Matteotti 6/b" , "011 8970887" , "CAF CGIL" , "45.1374" , "7.77217" , " "]
 
+classe29 = ["NOVARA" , "Via Mameli 7/B" , "0321 665286" , "CAF CGIL" , "45.446" , "8.61103" , " "]
 
-classe15 = [  "  Torino "  ,  "  Via Bibiana 77 "  ,  "  011 255668 "  ,  "  CAF UNSIC "   ,  " 45.10127809999999 "  ,  " 7.678418999999963 ", " "]
+classe30 = ["VERBANIA" , "Via F.lli Cervi 11" , " 0323 407781" , "CAF CGIL" , "45.9282" , "8.55547" , " "]
 
+classe31 = ["BIELLA VERCELLI" , "Via Lamarmora 4 Via Stara 2" , " 015 3599270  0161 211984" , "(CAF CGIL)^2" , "45.5629" , "8.05834" , " "]
 
-classe16 = [  "  Torino "  ,  "  Via Lodovica 11 "  ,  "  011 8196709 "  ,  "  CAF UNSIC "   ,  " 45.062598 "  ,  " 7.70287129999997 ", " "]
+classe32 = ["BORGOSESIA" , "Via V.Veneto 60" , " 0163 200414" , "CAF CGIL" , "45.7135" , "8.28105" , " "]
 
+classe33 = ["ALESSANDRIA" , "Via Cavour 27" , "0131 308251" , "CAF CGIL" , "44.9113" , "8.61635" , " "]
 
-classe17 = [  "  Torino "  ,  "  Via Belmonte 5 "  ,  "  011 19780205 "  ,  "  CAF UNSIC "   ,  " 45.0931287 "  ,  " 7.689459299999953 ", " "]
+classe34 = ["ASTI" , "Piazza Marconi 26" , "0141 533569" , "CAF CGIL" , "44.8957" , "8.20729" , " "]
 
+classe35 = ["CASALE MONFERRATO" , "V.Galeotto del Carretto 10" , "0142 336827" , "CAF CGIL" , "45.1348" , "8.44731" , " "]
 
-classe18 = [  "  Torino "  ,  "  Via Gramegna 17/A "  ,  "  011/2215246 "  ,  "  CAF UNSIC "   ,  " 45.0932785 "  ,  " 7.673202100000026 ", " "]
+classe36 = ["NOVI LIGURE" , "Via Monte Sabotino snc" , "0143 2577" , "CAF CGIL" , "44.7648" , "8.78636" , " "]
 
+classe37 = ["BRA" , "Via Umberto I n.117" , "0172 415499" , "CAF CGIL" , "44.6955" , "7.84915" , " "]
 
-classe19 = [  "  Torino "  ,  "  Via Domodossola 72/A "  ,  "  011/7718123 "  ,  "  CAF UNSIC "   ,  " 45.0823745 "  ,  " 7.642925900000023 ", " "]
+classe38 = ["CUNEO" , "Via Coppino 2/Bis" , "0171 452539" , "CAF CGIL" , "44.3827" , "7.54031" , " "]
 
+classe39 = ["ALESSANDRIA" , "Via Mazzini 35" , "0131 236225" , "CAF CIA" , "44.9149" , "8.61751" , " "]
 
-classe20 = [  "  Torino "  ,  "  Via Viberti 7/B "  ,  "  011/0675765 "  ,  "  CAF UNSIC "   ,  " 45.0683851 "  ,  " 7.636668800000052 ", " "]
+classe40 = ["ASTI" , "Piazza Alfieri 61" , "0141-594320" , "CAF CIA" , "44.9004" , "8.20657" , " "]
 
+classe41 = ["BIELLA" , "Via Tancredi Galimberti 4" , "015-84618" , "CAF CIA" , "45.5591" , "8.05244" , " "]
 
-classe21 = [  "  Torino "  ,  "  Via Villafranca Piem.te 2/E "  ,  "  011/0209952 "  ,  "  CAF UNSIC "   ,  " 45.0697337 "  ,  " 7.613265500000011 ", " "]
+classe42 = ["CALUSO" , "Via Bettoia 50" , "011-9832048" , "CAF CIA" , "45.3073" , "7.88913" , " "]
 
+classe43 = ["CHIERI" , "Via San Giacomo 5" , "011-9471568" , "CAF CIA" , "45.0154" , "7.82545" , " "]
 
-classe22 = [  "  Torino "  ,  "  Via Valprato 3 "  ,  "  011/855401 "  ,  "  CAF UNSIC "   ,  " 45.0924683 "  ,  " 7.68929270000001 ", " "]
+classe44 = ["CUNEO" , "Piazza Galimberti 2/b" , "0171-67978" , "CAF CIA" , "44.3905" , "7.54825" , " "]
 
+classe45 = ["IVREA" , "Via Bertinatti 9" , "0125-43837" , "CAF CIA" , "45.467" , "7.87916" , " "]
 
-classe23 = [  "  Torino "  ,  "  Via Massena 18 "  ,  "  011 533806 "  ,  "  CAF 50 )  PIU? "   ,  " 45.062248 "  ,  " 7.673653300000069 ", " "]
+classe46 = ["MONDOVI' (CN)" , "Piazzale Ellero 12" , "0174-43545" , "CAF CIA" , "44.4106" , "7.86348" , " "]
 
+classe47 = ["NOVARA" , "Via Ravizza 10" , "0321-626925" , "CAF CIA" , "45.4464" , "8.61776" , " "]
 
-classe24 = [  "  Torino "  ,  "  Via Cigna 4 Bis "  ,  "  011 5213886 "  ,  "  CAF 50 )  PIU? "   ,  " 45.0797595 "  ,  " 7.67692390000002 ", " "]
+classe48 = ["PINEROLO" , "Corso Porporato 18" , "0121-77303" , "CAF CIA" , "44.889" , "7.33252" , " "]
 
+classe49 = ["TORINO" , "Via San Francesco da Paola 22" , "011-5628892" , "CAF CIA" , "45.0658" , "7.68703" , " "]
 
-classe25 = [  "  Torino "  ,  "  Corso Brescia 53/A "  ,  "  011 2873643 "  ,  "  CAF CGIL "   ,  " 45.0803506 "  ,  " 7.696019699999965 ", " "]
+classe50 = ["TORRE PELLICE" , "Via Caduti Libertà 4" , "0121-953097" , "CAF CIA" , "44.8207" , "7.22281" , " "]
 
+classe51 = ["TORINO" , "Via Perrero 22/A" , "01119506147" , "CAF CGN" , "45.0668" , "7.64591" , " "]
 
-classe26 = [  "  Torino "  ,  "  P.za Rebaudengo 27 "  ,  "  011 2422225 "  ,  "  CAF CGIL "   ,  " 45.1043538 "  ,  " 7.695349999999962 ", " "]
+classe52 = ["TORINO" , "Via Avogadro 19" , "0115622663" , "CAF CGN" , "45.0699" , "7.67174" , " "]
 
+classe53 = ["TORINO" , "Via Eusebio Bava 27/E" , "0110463965" , "CAF CGN" , "45.0682" , "7.70062" , " "]
 
-classe27 = [  "  Torino "  ,  "  Via Gessi 17 "  ,  "  011 3272094 "  ,  "  CAF CGIL "   ,  " 45.0511342 "  ,  " 7.652043800000001 ", " "]
+classe54 = ["TORINO" , "Via Belfiore 55" , "0116689082" , "CAF CGN" , "45.0521" , "7.6777" , " "]
 
+classe55 = ["TORINO" , "Via Cristoforo Colombo 9" , "01119701494" , "CAF CGN" , "45.0559" , "7.66572" , " "]
 
-classe28 = [  "  Torino "  ,  "  Via Nizza 36/A "  ,  "  011 6693801 "  ,  "  CAF CGIL "   ,  " 45.05342 "  ,  " 7.67536999999993 ", " "]
+classe56 = ["TORINO" , "Corso De Nicola 42" , "011500955" , "CAF CGN" , "45.0516" , "7.65774" , " "]
 
+classe57 = ["TORINO" , "Corso Duca Degli Abruzzi 106" , "0113828085" , "CAF CGN" , "45.0533" , "7.65593" , " "]
 
-classe29 = [  "  Torino "  ,  "  Via Sagra S.Michele 31/B "  ,  "  011 7732289 "  ,  "  CAF CGIL "   ,  " 45.0726727 "  ,  " 7.631245300000046 ", " "]
+classe58 = ["TORINO" , "Via Guido Reni 221" , "0113139945" , "CAF CGN" , "45.0392" , "7.62886" , " "]
 
+classe59 = ["TORINO" , "Via Cibrario 83" , "0117770063" , "CAF CGN" , "45.0821" , "7.65388" , " "]
 
-classe30 = [  "  Carmagnola "  ,  "  Via Fossano 2 "  ,  "  011 9620999 "  ,  "  CAF CGIL "   ,  " 44.8439935 "  ,  " 7.714773400000013 ", " "]
+classe60 = ["TORINO" , "Via Principi D'acaja 2" , "0114374751" , "CAF CGN" , "45.078" , "7.66477" , " "]
 
+classe61 = ["TORINO" , "Via Cibrario 14" , "01119715423" , "CAF CGN" , "45.078" , "7.66622" , " "]
 
-classe31 = [  "  Cirie' (TO "  ,  "  Via Matteotti 16 "  ,  "  011 9228332 "  ,  "  CAF CGIL "   ,  " 45.2193408 "  ,  " 7.629024999999956 ", " "]
+classe62 = ["TORINO" , "Via Montanaro 48" , "0112478289" , "CAF CGN" , "45.0927" , "7.69497" , " "]
 
+classe63 = ["TORINO" , "Corso Alessandro Tassoni 12" , "0117714792" , "CAF CGN" , "45.078" , "7.65658" , " "]
 
-classe32 = [  "  Collegno "  ,  "  Via Morandi 3 "  ,  "  011 4151200 "  ,  "  CAF CGIL "   ,  " 45.0781283 "  ,  " 7.569290200000069 ", " "]
+classe64 = ["TORINO" , "Corso Belgio 54" , "0161433367" , "CAF CGN" , "45.0728" , "7.7127" , " "]
 
+classe65 = ["TORINO" , "Corso Cincinnato 256/g" , "0114557373" , "CAF CGN" , "45.1049" , "7.65442" , " "]
 
-classe33 = [  "  Cuorgne' TO "  ,  "  P.za Pinelli 13 "  ,  "  0124 651120 "  ,  "  CAF CGIL "   ,  " 45.39234889999999 "  ,  " 7.647652999999991 ", " "]
+classe66 = ["TORINO" , "Corso Duca degli Abruzzi 2" , "011542518" , "CAF CGN" , "45.0672" , "7.66582" , " "]
 
+classe67 = ["TORINO" , "Corso Enrico de Nicola 58" , "0113182677" , "CAF CGN" , "45.0522" , "7.65675" , " "]
 
-classe34 = [  "  Ivrea "  ,  "  P.za Perrone 3 "  ,  "  0125 633039 "  ,  "  CAF CGIL "   ,  " 45.46546 "  ,  " 7.8730600000000095 ", " "]
+classe68 = ["TORINO" , "Corso Ferrucci 96" , "0115813111" , "CAF CGN" , "45.0641" , "7.6553" , " "]
 
+classe69 = ["TORINO" , "Corso Francia 34" , "0114374281" , "CAF CGN" , "45.0765" , "7.66179" , " "]
 
-classe35 = [  "  Moncalieri "  ,  "  Via Trieste 23 "  ,  "  011 601720 "  ,  "  CAF CGIL "   ,  " 44.9865156 "  ,  " 7.736035700000002 ", " "]
+classe70 = ["TORINO" , "Corso G.Ferraris 160" , "0113199555" , "CAF CGN" , "45.05" , "7.65982" , " "]
 
+classe71 = ["TORINO" , "Corso Giulio Cesare 12/l" , "0117930978" , "CAF CGN" , "45.0803" , "7.68623" , " "]
 
-classe36 = [  "  Orbassano "  ,  "  Via Roma 17 "  ,  "  011 9019049 "  ,  "  CAF CGIL "   ,  " 45.007688 "  ,  " 7.538083000000029 ", " "]
+classe72 = ["TORINO" , "Corso Lecce 22" , "0117490732" , "CAF CGN" , "45.0781" , "7.64559" , " "]
 
+classe73 = ["TORINO" , "Corso Lecce 51" , "011747706" , "CAF CGN" , "45.0822" , "7.64777" , " "]
 
-classe37 = [  "  Pinerolo "  ,  "  Corso Torino 216 "  ,  "  0121 377416 "  ,  "  CAF CGIL "   ,  " 44.8862732 "  ,  " 7.340416799999957 ", " "]
+classe74 = ["TORINO" , "Corso Novara 19" , "0112475454" , "CAF CGN" , "45.0876" , "7.69172" , " "]
 
+classe75 = ["TORINO" , "Corso Peschiera 342" , "0117203187" , "CAF CGN" , "45.0722" , "7.63042" , " "]
 
-classe38 = [  "  Rivoli "  ,  "  Via Piave 23 "  ,  "  011 9554518 "  ,  "  CAF CGIL "   ,  " 45.07252030000001 "  ,  " 7.521785099999988 ", " "]
+classe76 = ["TORINO" , "Corso Re Umberto 9" , "0112359691" , "CAF CGN" , "45.0656" , "7.6751" , " "]
 
+classe77 = ["TORINO" , "Corso Regina Margherita 195" , "0114375204" , "CAF CGN" , "45.0824" , "7.66572" , " "]
 
-classe39 = [  "  Settimo Torinese "  ,  "  Via Matteotti 6 "  ,  "  011 8970887 "  ,  "  CAF CGIL "   ,  " 45.13735 "  ,  " 7.77216999999996 ", " "]
+classe78 = ["TORINO" , "Corso Stati Uniti 6" , "0117640006" , "CAF CGN" , "45.0614" , "7.67509" , " "]
 
+classe79 = ["TORINO" , "Corso Svizzera 30" , "0114345590" , "CAF CGN" , "45.0787" , "7.64989" , " "]
 
-classe40 = [  "  Novara "  ,  "  Via Mameli 7/B "  ,  "  0321 665286 "  ,  "  CAF CGIL "   ,  " 45.4460266 "  ,  " 8.611027199999967 ", " "]
+classe80 = ["TORINO" , "Corso Tassoni 14" , "0117716247" , "CAF CGN" , "45.0784" , "7.65665" , " "]
 
+classe81 = ["TORINO" , "Corso Turati 3" , "0934922008" , "CAF CGN" , "45.0547" , "7.67136" , " "]
 
-classe41 = [  "  Verbania "  ,  "  Via F.lli Cervi 11 "  ,  "  0323 407781 "  ,  "  CAF CGIL "   ,  " 45.9281827 "  ,  " 8.555471399999988 ", " "]
+classe82 = ["TORINO" , "Corso Unione Sovietica 385" , "0116165797" , "CAF CGN" , "45.0248" , "7.63781" , " "]
 
+classe83 = ["TORINO" , "Corso Unione Sovietica 499" , "0110262941" , "CAF CGN" , "45.0186" , "7.63123" , " "]
 
-classe42 = [  "  Vercelli "  ,  "  Via Stara 2 "  ,  "  0161 211984 "  ,  "  CAF CGIL "   ,  " 45.3222455 "  ,  " 8.426728099999991 ", " "]
+classe84 = ["TORINO" , "Largo Cibrario 10" , "0114378223" , "CAF CGN" , "45.0776" , "7.66721" , " "]
 
+classe85 = ["TORINO" , "Largo Tirreno 121" , "011011011" , "CAF CGN" , "45.0519" , "7.65073" , " "]
 
-classe43 = [  "  Biella "  ,  "  Via Lamarmora 4 "  ,  "  015 3599270 "  ,  "  CAF CGIL "   ,  " 45.582635 "  ,  " 8.0933 ", " "]
+classe86 = ["TORINO" , "Strada Val San Martino Inferio" , "0113201239" , "CAF CGN" , "45.0596" , "7.72635" , " "]
 
+classe87 = ["TORINO" , "Via Bava 14" , "011882973" , "CAF CGN" , "45.0666" , "7.69875" , " "]
 
-classe44 = [  "  Borgosesia "  ,  "  Via V. Veneto 60 "  ,  "  0163 200414 "  ,  "  CAF CGIL "   ,  " 45.713493 "  ,  " 8.281046899999978 ", " "]
+classe88 = ["TORINO" , "Via Bellardi 21 bis" , "0117790779" , "CAF CGN" , "45.0765" , "7.62262" , " "]
 
+classe89 = ["TORINO" , "Via Brunetta 11" , "01119442811" , "CAF CGN" , "45.0717" , "7.64594" , " "]
 
-classe45 = [  "  Alessandria "  ,  "  Via Cavour 27/29 "  ,  "  0131 308251 "  ,  "  CAF CGIL "   ,  " 44.9116179 "  ,  " 8.616361299999994 ", " "]
+classe90 = ["TORINO" , "Via Candia 10" , "0110770631" , "CAF CGN" , "45.0894" , "7.69709" , " "]
 
+classe91 = ["TORINO" , "Via Cassini 81" , "0115818370" , "CAF CGN" , "45.0524" , "7.66019" , " "]
 
-classe46 = [  "  Asti "  ,  "  Piazza Marconi 26 "  ,  "  0141 33500 "  ,  "  CAF CGIL "   ,  " 44.775122 "  ,  " 8.349060000000009 ", " "]
+classe92 = ["TORINO" , "Via Cernaia 15" , "01119647027" , "CAF CGN" , "45.0709" , "7.6756" , " "]
 
+classe93 = ["TORINO" , "Via Cordero di Pamparato 1" , "011740252" , "CAF CGN" , "45.0763" , "7.65398" , " "]
 
-classe47 = [  "  Casale Monferrato "  ,  "  V. Galeotto del Carretto 10 "  ,  "  0142 336827 "  ,  "  CAF CGIL "   ,  " 45.13479299999999 "  ,  " 8.447313000000008 ", " "]
+classe94 = ["TORINO" , "Via Cristoforo Beggiamo 5" , " " , "  3804688882 CAF CGN" , "CAF CGN" , "45.0982" , "7.6782" , " "]
 
+classe95 = ["TORINO" , "Via Druento 36/c" , "01119452507" , "CAF CGN" , "45.1131" , "7.65556" , " "]
 
-classe48 = [  "  Novi Ligure AL "  ,  "  Via Monte Sabotino snc "  ,  "  0143 2577 "  ,  "  CAF CGIL "   ,  " 44.7652966 "  ,  " 8.785664699999984 ", " "]
+classe96 = ["TORINO" , "Via Galvani 13/c" , "0112076332" , "CAF CGN" , "45.0814" , "7.66131" , " "]
 
+classe97 = ["TORINO" , "Via Giovanni Migliara 13" , "800033786" , "CAF CGN" , "45.0792" , "7.65864" , " "]
 
-classe49 = [  "  Bra "  ,  "  Via Umberto I n 117 "  ,  "  0172 414858 "  ,  "  CAF CGIL "   ,  " 44.699946 "  ,  " 7.848463700000025 ", " "]
+classe98 = ["TORINO" , "Via Gorizia 69" , "0114276575" , "CAF CGN" , "45.0487" , "7.64127" , " "]
 
+classe99 = ["TORINO" , "Via Gottardo 109" , "011915175" , "CAF CGN" , "45.0976" , "7.6973" , " "]
 
-classe50 = [  "  Cuneo "  ,  "  Via Coppino 2/Bis "  ,  "  0171 452535 "  ,  "  CAF CGIL "   ,  " 44.38286129999999 "  ,  " 7.539980300000025 ", " "]
+classe100 = ["TORINO" , "Via Gottardo 109/b" , "0113939381" , "CAF CGN" , "45.0976" , "7.6973" , " "]
 
+classe101 = ["TORINO" , "Via Grassi 15" , "0110206426" , "CAF CGN" , "45.0744" , "7.66335" , " "]
 
-classe51 = [  "  Torino "  ,  "  C.so Principe Eugenio 7 "  ,  "  011 5220238 "  ,  "  CA52AF SICUREZZA FISCALE "   ,  " 45.07855199999999 "  ,  " 7.674548800000025 ", " "]
+classe102 = ["TORINO" , "Via Gropello 11" , "0110206113" , "CAF CGN" , "45.0752" , "7.66467" , " "]
 
+classe103 = ["TORINO" , "Via Lamarmora 38" , "0115187454" , "CAF CGN" , "45.0588" , "7.66791" , " "]
 
-classe52 = [  "  Vercelli "  ,  "  Via Meucci 1 "  ,  "  0161 501595 "  ,  "  CAAF SICUREZZA FISCALE "   ,  " 45.3303727 "  ,  " 8.432149999999979 ", " "]
+classe104 = ["TORINO" , "Via Massena 37" , "0115183016" , "CAF CGN" , "45.0597" , "7.67207" , " "]
 
+classe105 = ["TORINO" , "Via Montecorno 33b/c" , "011613149" , "CAF CGN" , "45.0245" , "7.65356" , " "]
 
-classe53 = [  "  Alessandria "  ,  "  Via Mazzini 33 "  ,  "  0131-236225 "  ,  "  CAF CIA "   ,  " 44.91455970000001 "  ,  " 8.617321500000003 ", " "]
+classe106 = ["TORINO" , "Via Nizza 369" , "0116964532" , "CAF CGN" , "45.0207" , "7.66258" , " "]
 
+classe107 = ["TORINO" , "Via Oropa 55/c" , "011837103" , "CAF CGN" , "45.072" , "7.7141" , " "]
 
-classe54 = [  "  Asti "  ,  "  Piazza Alfieri 61 "  ,  "  0141-594320 "  ,  "  CAF CIA "   ,  " 44.9004762 "  ,  " 8.206539399999997 ", " "]
+classe108 = ["TORINO" , "Via Palmieri 63" , "0114333253" , "CAF CGN" , "45.0718" , "7.65973" , " "]
 
+classe109 = ["TORINO" , "Via Pietrino Belli 37" , "3386026174" , "CAF CGN" , "45.0809" , "7.64483" , " "]
 
-classe55 = [  "  Biella "  ,  "  Via Galimberti 4 "  ,  "  015-84618 "  ,  "  CAF CIA "   ,  " 45.559113 "  ,  " 8.05244360000006 ", " "]
+classe110 = ["TORINO" , "Via Pietro Cossa 280/2" , "01119442811" , "CAF CGN" , "45.0944" , "7.6352" , " "]
 
+classe111 = ["TORINO" , "Via Principi D'Acaja 40" , "0114346994" , "CAF CGN" , "45.0724" , "7.66156" , " "]
 
-classe56 = [  "  Cuneo "  ,  "  Piazza Galimberti 2/b "  ,  "  0171-67978 "  ,  "  CAF CIA "   ,  " 44.3904969 "  ,  " 7.548253700000032 ", " "]
+classe112 = ["TORINO" , "Via Principi D'Acaja 45" , "01119647016" , "CAF CGN" , "45.0732" , "7.66244" , " "]
 
+classe113 = ["TORINO" , "Via Rio De Janeiro 39" , "0113854945" , "CAF CGN" , "45.0571" , "7.64967" , " "]
 
-classe57 = [  "  Mondovi' CN "  ,  "  Piazzale Ellero 12 "  ,  "  0174-43545 "  ,  "  CAF CIA "   ,  " 44.390588 "  ,  " 7.820732000000021 ", " "]
+classe114 = ["TORINO" , "Via Sagliano Micca 2" , "0115887265" , "CAF CGN" , "45.0683" , "7.66988" , " "]
 
+classe115 = ["TORINO" , "Via San Dalmazzo 24" , "0114222210" , "CAF CGN" , "45.0715" , "7.67639" , " "]
 
-classe58 = [  "  Novara "  ,  "  Via Ravizza 10 "  ,  "  0321-626925 "  ,  "  CAF CIA "   ,  " 45.44637549999999 "  ,  " 8.617755200000033 ", " "]
+classe116 = ["TORINO" , "Via San Francesco D'Assisi 1" , "3403023298" , "CAF CGN" , "45.0725" , "7.68094" , " "]
 
+classe117 = ["TORINO" , "Via San Marino 133/c" , "011360673" , "CAF CGN" , "45.0409" , "7.63595" , " "]
 
-classe59 = [  "  Torino "  ,  "  Via San Francesco da Paola 22 "  ,  "  011-5628892 "  ,  "  CAF CIA "   ,  " 45.0658094 "  ,  " 7.687033700000029 ", " "]
+classe118 = ["TORINO" , "Via Stradella 76" , "0112168928" , "CAF CGN" , "45.0946" , "7.67425" , " "]
 
+classe119 = ["TORINO" , "Via Tolmino 25" , "0113828409" , "CAF CGN" , "45.0586" , "7.64493" , " "]
 
-classe60 = [  "  Caluso "  ,  "  Via Bettoia 50 "  ,  "  011-9832048 "  ,  "  CAF CIA "   ,  " 45.3067909 "  ,  " 7.889055299999995 ", " "]
+classe120 = ["TORINO" , "Via Torricelli 35" , "01119704501" , "CAF CGN" , "45.0545" , "7.65973" , " "]
 
+classe121 = ["TORINO" , "Via Vassalli Eandi 19" , "0114342724" , "CAF CGN" , "45.0752" , "7.66262" , " "]
 
-classe61 = [  "  Chieri "  ,  "  Via San Giacomo 5 "  ,  "  011-9471568 "  ,  "  CAF CIA "   ,  " 45.01544000000001 "  ,  " 7.825450000000046 ", " "]
+classe122 = ["TORINO" , "Via Vinadio 19" , "0114338016" , "CAF CGN" , "45.0693" , "7.65258" , " "]
 
+classe123 = ["TORINO" , "Via Viterbo 73" , "0110374075" , "CAF CGN" , "45.0944" , "7.65898" , " "]
 
-classe62 = [  "  Chivasso "  ,  "  Via Emilio Gallo 29 "  ,  "  011-9113050 "  ,  "  CAF CIA "   ,  " 45.21022 "  ,  " 7.886369999999943 ", " "]
+classe124 = ["ACQUI TERME" , "Via Amendola 50" , " 0144325563" , "CAF CGN" , "44.6788" , "8.46742" , " "]
 
+classe125 = ["ALBA" , "Corso Piave 3" , " 0173287017" , "CAF CGN" , "44.6958" , "8.03185" , " "]
 
-classe63 = [  "  Ivrea "  ,  "  Via Bertinatti 9 "  ,  "  0125-43837 "  ,  "  CAF CIA "   ,  " 45.466969 "  ,  " 7.879163000000062 ", " "]
+classe126 = ["ALBA" , "P.zza Savona 11" , " 0173 3470142" , "CAF CGN" , "44.6964" , "8.03427" , " "]
 
+classe127 = ["ALESSANDRIA" , "Piazza Santo Stefano 14" , " 0131227271" , "CAF CGN" , "45.0038" , "8.73557" , " "]
 
-classe64 = [  "  Pinerolo "  ,  "  Corso Porporato 18 "  ,  "  0121-77303 "  ,  "  CAF CIA "   ,  " 44.8891273 "  ,  " 7.3324927999999545 ", " "]
+classe128 = ["ALESSANDRIA" , "Via Verdi 40" , " 01311750006" , "CAF CGN" , "44.9116" , "8.61511" , " "]
 
+classe129 = ["ALESSANDRIA" , "Corso Roma 36" , " 0131262569" , "CAF CGN" , "44.9125" , "8.61326" , " "]
 
-classe65 = [  "  Torre Pellice TO "  ,  "  Via Caduti per la Libertà 4 "  ,  "  0121-953097 "  ,  "  CAF CIA "   ,  " 44.820667 "  ,  " 7.222813999999971 ", " "]
+classe130 = ["ALESSANDRIA" , "Via Napoli 40" , " 01311850799" , "CAF CGN" , "44.9048" , "8.61415" , " "]
 
+classe131 = ["ALESSANDRIA" , "Via Dell'Artigianato 5" , " 0131244228" , "CAF CGN" , "44.8912" , "8.61813" , " "]
 
-classe66 = [  "  Alessandria "  ,  "  Via Faà di Bruno 79 "  ,  "  013 1251091 "  ,  "  CAF ACLI "   ,  " 44.91126999999999 "  ,  " 8.617399999999975 ", " "]
+classe132 = ["ALESSANDRIA" , "Via Sant'Audina 6" , " 0131618411" , "CAF CGN" , "44.8885" , "8.67461" , " "]
 
+classe133 = ["ALICE CASLO" , "Via Tiziano 1" , "016190854" , "CAF CGN" , "45.3635" , "8.06999" , " "]
 
-classe67 = [  "  Casale Monferrato "  ,  "  Via della Biblioteca 2 "  ,  "  014 2418711 "  ,  "  CAF ACLI "   ,  " 45.1374381 "  ,  " 8.454234499999984 ", " "]
+classe134 = ["ALICE CASLO" , "Via Italia 49" , "016190667" , "CAF CGN" , "45.3673" , "8.07566" , " "]
 
+classe135 = ["ARQUATA SCRIVIA" , "Via Fontana 2" , " 0143636392" , "CAF CGN" , "44.6901" , "8.90182" , " "]
 
-classe68 = [  "  Asti "  ,  "  Via Carducci 22 "  ,  "  014 1556827 "  ,  "  CAF ACLI "   ,  " 44.89909919999999 "  ,  " 8.196190500000057 ", " "]
+classe136 = ["ALPIGNANO" , "Via F.Lli Revelli 11" , "0119672652" , "CAF CGN" , "45.0929" , "7.5237" , " "]
 
+classe137 = ["ARIZZANO" , "Via Nuova Intra Premeno 72" , "0323402004" , "CAF CGN" , "45.9511" , "8.57947" , " "]
 
-classe69 = [  "  Cuneo "  ,  "  Via Saluzzo 10 "  ,  "  017 1452611 "  ,  "  CAF ACLI "   ,  " 44.3938141 "  ,  " 7.551485899999989 ", " "]
+classe138 = ["ASTI" , "Corso Alfieri 175" , "014131610" , "CAF CGN" , "44.9013" , "8.20771" , " "]
 
+classe139 = ["ASTI" , "Via Cafasso 14" , "0141592436" , "CAF CGN" , "44.9011" , "8.21169" , " "]
 
-classe70 = [  "  Fossano "  ,  "  Via Merlo 18 "  ,  "  017 2636526 "  ,  "  CAF ACLI "   ,  " 44.54809849999999 "  ,  " 7.725427699999955 ", " "]
+classe140 = ["ASTI" , "Via Caracciolo 2b" , "0141351237" , "CAF CGN" , "44.8993" , "8.19767" , " "]
 
+classe141 = ["ASTI" , "Corso Torino 228" , "0141321817" , "CAF CGN" , "44.9059" , "8.18532" , " "]
 
-classe71 = [  "  Mondovì "  ,  "  P.za S. Maria Maggiore 6 "  ,  "  017 4552481 "  ,  "  CAF ACLI "   ,  " 44.386892 "  ,  " 7.821469999999977 ", " "]
+classe142 = ["ASTI" , "Via F.Cendola 6" , "0141091776" , "CAF CGN" , "44.9055" , "8.2248" , " "]
 
+classe143 = ["ASTI" , "Via San Martino 2" , "0141599349" , "CAF CGN" , "44.8993" , "8.20062" , " "]
 
-classe72 = [  "  Saluzzo "  ,  "  Via Piave 17 "  ,  "  017 5217568 "  ,  "  CAF ACLI "   ,  " 44.642641 "  ,  " 7.496715999999992 ", " "]
+classe144 = ["ASTI" , "Via Mameli 1" , "0141230470" , "CAF CGN" , "44.8997" , "8.20251" , " "]
 
+classe145 = ["BANNIO ANZINO" , "Via Monterosa 18" , "0324828813" , "CAF CGN" , "45.9903" , "8.1473" , " "]
 
-classe73 = [  "  Savigliano "  ,  "  C.so Vittorio Veneto 38 "  ,  "  017 2712963 "  ,  "  CAF ACLI "   ,  " 44.6508926 "  ,  " 7.6582266000000345 ", " "]
+classe146 = ["BASSIGNANA" , "Via Valenza 47" , " 3389770358" , "CAF CGN" , "45.009" , "8.70516" , " "]
 
+classe147 = ["BELLINZAGO NOVARESE" , "Via Santo Stefano 49" , "0321987021" , "CAF CGN" , "45.5793" , "8.64391" , " "]
 
-classe74 = [  "  Novara "  ,  "  Largo Donegani 5/A "  ,  "  032 1697390 "  ,  "  CAF ACLI "   ,  " 45.44949 "  ,  " 8.638810000000035 ", " "]
+classe148 = ["BIELLA" , "Piazza San Paolo 2" , "015402231" , "CAF CGN" , "45.557" , "8.066" , " "]
 
+classe149 = ["BIELLA" , "Via Delleani 23" , "015405266" , "CAF CGN" , "45.5601" , "8.05389" , " "]
 
-classe75 = [  "  Borgomanero "  ,  "  Via Piovale 31 "  ,  "  032 282290 "  ,  "  CAF ACLI "   ,  " 45.69269999999999 "  ,  " 8.46521000000007 ", " "]
+classe150 = ["BIELLA" , "Via Orfanotrofio 20" , "015351886" , "CAF CGN" , "45.5686" , "8.05705" , " "]
 
+classe151 = ["BIELLA" , "Via Milano 82" , "0152525701" , "CAF CGN" , "45.5672" , "8.08355" , " "]
 
-classe76 = [  "  Cameri "  ,  "  Via Cairoli 90 "  ,  "  032 1616781 "  ,  "  CAF ACLI "   ,  " 45.5011666 "  ,  " 8.66255769999998 ", " "]
+classe152 = ["BIELLA" , "Via Della Vittoria 31" , "01526348" , "CAF CGN" , "45.5742" , "8.07057" , " "]
 
+classe153 = ["BIELLA" , "Via Malta 3" , "01523260" , "CAF CGN" , "45.5688" , "8.05871" , " "]
 
-classe77 = [  "  Galliate "  ,  "  Largo Rabellotti 8/9 "  ,  "  032 1806115 "  ,  "  CAF ACLI "   ,  " 45.4797174 "  ,  " 8.697468399999934 ", " "]
+classe154 = ["BIELLA" , "Via C.Colombo 1" , "01529890" , "CAF CGN" , "45.564" , "8.05598" , " "]
 
+classe155 = ["BIELLA" , "Via Trento 3" , "01526161" , "CAF CGN" , "45.5623" , "8.06082" , " "]
 
-classe78 = [  "  Oleggio "  ,  "  Via Nebulina 2 "  ,  "  032 1960100 "  ,  "  CAF ACLI "   ,  " 45.5968692 "  ,  " 8.638936400000034 ", " "]
+classe156 = ["BIELLA" , "Via Candelo 39" , "0158495506" , "CAF CGN" , "45.5542" , "8.07012" , " "]
 
+classe157 = ["BIELLA" , "Via Torino 55" , "0153701059" , "CAF CGN" , "45.5579" , "8.06145" , " "]
 
-classe79 = [  "  Torino "  ,  "  Via Perrone 3 bis/A "  ,  "  011 5712711 "  ,  "  CAF ACLI "   ,  " 45.0741462 "  ,  " 7.673660000000041 ", " "]
+classe158 = ["BIELLA" , "Via Gobetti 2" , "0150156600" , "CAF CGN" , "45.5666" , "8.05025" , " "]
 
+classe159 = ["BIELLA" , "Via Volpi 2" , "0150991520" , "CAF CGN" , "45.5646" , "8.05779" , " "]
 
-classe80 = [  "  Beinasco "  ,  "  P.za Kennedy 37 "  ,  "  011 3989315 "  ,  "  CAF ACLI "   ,  " 45.0061153 "  ,  " 7.603194199999962 ", " "]
+classe160 = ["BORGO D'ALE" , "Via Ivrea 18" , "016146285" , "CAF CGN" , "45.3524" , "8.04958" , " "]
 
+classe161 = ["BORGOMANERO" , "Via Rivano 2" , "032282364" , "CAF CGN" , "45.6869" , "8.47637" , " "]
 
-classe81 = [  "  Borgaro Torinese "  ,  "  Via Lanzo  175 "  ,  "  011 4704757 "  ,  "  CAF ACLI "   ,  " 45.15338 "  ,  " 7.654049999999984 ", " "]
+classe162 = ["BORGOSESIA" , "Viale Duca D'aosta 97" , "0163086321" , "CAF CGN" , "45.7163" , "8.28151" , " "]
 
+classe163 = ["BORGOSESIA" , "Piazza Mazzini 3" , "0163294836" , "CAF CGN" , "45.7153" , "8.27652" , " "]
 
-classe82 = [  "  Carmagnola "  ,  "  P.za Martiti Libertà 21 "  ,  "  011 9722453 "  ,  "  CAF ACLI "   ,  " 44.841297 "  ,  " 7.69686200000001 ", " "]
+classe164 = ["BORGOSESIA" , "Via Vittorio Veneto 66" , "016322306" , "CAF CGN" , "45.7135" , "8.28181" , " "]
 
+classe165 = ["BRA" , "Via Mathis 10" , "0172431564" , "CAF CGN" , "44.696" , "7.8501" , " "]
 
-classe83 = [  "  Chieri "  ,  "  P.za Silvio Pellico 20 A "  ,  "  011 9422561 "  ,  "  CAF ACLI "   ,  " 45.00982 "  ,  " 7.822789999999941 ", " "]
+classe166 = ["BRA" , "Via Cavour 44" , "0172412413" , "CAF CGN" , "44.6961" , "7.85163" , " "]
 
+classe167 = ["BUSSOLENO" , "Piazza del Moro 6" , "0122641049" , "CAF CGN" , "45.1395" , "7.14762" , " "]
 
-classe84 = [  "  Chivasso "  ,  "  Via Italia 10 "  ,  "  011 9102209 "  ,  "  CAF ACLI "   ,  " 45.1919456 "  ,  " 7.888465999999994 ", " "]
+classe168 = ["CALTIGNAGA" , "Via Moresca e Ferrandi 1" , "0321652605" , "CAF CGN" , "45.5162" , "8.58828" , " "]
 
+classe169 = ["CALUSO" , "Via Martiri D'italia 22/A" , "0119833572" , "CAF CGN" , "45.302" , "7.89287" , " "]
 
-classe85 = [  "  Ivrea "  ,  "  C.so Nigra 64 "  ,  "  012 5641631 "  ,  "  CAF ACLI "   ,  " 45.4621832 "  ,  " 7.8746549999999615 ", " "]
+classe170 = ["CALUSO" , "Via Doberdê 1" , "0119891064" , "CAF CGN" , "45.3022" , "7.88967" , " "]
 
+classe171 = ["CAMERI" , "Via Novara 35" , "0321517756" , "CAF CGN" , "45.4996" , "8.66202" , " "]
 
-classe86 = [  "  Nichelino "  ,  "  Via Giusti 22 "  ,  "  011 6271889 "  ,  "  CAF ACLI "   ,  " 44.994348 "  ,  " 7.650037999999995 ", " "]
+classe172 = ["CARESANABLOT" , "Via Vercelli 52" , "016133029" , "CAF CGN" , "45.3587" , "8.38752" , " "]
 
+classe173 = ["CARPIGNANO SESIA" , "Via Cavour 69" , "0321825296" , "CAF CGN" , "45.5362" , "8.42125" , " "]
 
-classe87 = [  "  Pinerolo "  ,  "  C.so Torino 216/B "  ,  "  0121 322621 "  ,  "  CAF ACLI "   ,  " 44.8863 "  ,  " 7.340469999999982 ", " "]
+classe174 = ["CASALE MONFERRATO" , "Via Cobianchi 6" , " 0142461240" , "CAF CGN" , "45.1392" , "8.458" , " "]
 
+classe175 = ["CASALE MONFERRATO" , "Via Della Provvidenza 8" , " 0142455803" , "CAF CGN" , "45.1346" , "8.45872" , " "]
 
-classe88 = [  "  Rivarolo Canavese "  ,  "  C.so Italia 19 "  ,  "  012 4425553 "  ,  "  CAF ACLI "   ,  " 45.3339124 "  ,  " 7.723350799999935 ", " "]
+classe176 = ["CASELLE TORINESE" , "Via Alle Fabbriche 183" , "0119912650" , "CAF CGN" , "45.1743" , "7.63092" , " "]
 
+classe177 = ["CASLAMONTE" , "Via Ex Internati 23" , "0124581881" , "CAF CGN" , "45.3802" , "7.70935" , " "]
 
-classe89 = [  "  Rivoli "  ,  "  Via Gili 1 "  ,  "  011 9566208 "  ,  "  CAF ACLI "   ,  " 45.0709703 "  ,  " 7.519266099999982 ", " "]
+classe178 = ["CAVAGLIÀ" , "Via Rondolino 9" , "016196343" , "CAF CGN" , "45.407" , "8.0946" , " "]
 
+classe179 = ["CHIERI" , "Via Giacomo Leopardi 3" , "0119427947" , "CAF CGN" , "45.0047" , "7.83839" , " "]
 
-classe90 = [  "  Settimo Torinese "  ,  "  Via Regio Parco 24 "  ,  "  011 2076065 "  ,  "  CAF ACLI "   ,  " 45.1315748 "  ,  " 7.757472099999973 ", " "]
+classe180 = ["CHIVASSO" , "Via Bradac 21" , "0119114897" , "CAF CGN" , "45.1954" , "7.89194" , " "]
 
+classe181 = ["CIGLIANO" , "Corso Umberto I 24" , "0161423011" , "CAF CGN" , "45.3091" , "8.02204" , " "]
 
-classe91 = [  "  Torino "  ,  "  C.so Unione Sovietica 314 "  ,  "  011 613768 "  ,  "  CAF ACLI "   ,  " 45.0309855 "  ,  " 7.644084700000008 ", " "]
+classe182 = ["CIRIE'" , "Corso Martiri Della Libertà 4" , "0119228421" , "CAF CGN" , "45.2319" , "7.60344" , " "]
 
+classe183 = ["COLLEGNO" , "Via Andrea Costa 18" , "0114081836" , "CAF CGN" , "45.0709" , "7.57298" , " "]
 
-classe92 = [  "  Torino "  ,  "  C.so Palermo 116/A "  ,  "  011 2474356 "  ,  "  CAF ACLI "   ,  " 45.08898869999999 "  ,  " 7.693442699999991 ", " "]
+classe184 = ["COLLEGNO" , "Via Frali Villani 25/b" , "0116995524" , "CAF CGN" , "45.071" , "7.58547" , " "]
 
+classe185 = ["CONDOVE" , "Piazza Martiri Della Libertà" , "0119644084" , "CAF CGN" , "45.1171" , "7.3116" , " "]
 
-classe93 = [  "  Torino "  ,  "  Via Nizza 369/E "  ,  "  011 66333241 "  ,  "  CAF ACLI "   ,  " 45.0206683 "  ,  " 7.662550600000031 ", " "]
+classe186 = ["CRESCENTINO" , "Piazza Garibaldi 10" , "0161834447" , "CAF CGN" , "45.1904" , "8.10211" , " "]
 
+classe187 = ["CUNEO" , "Via Salvatora 66" , "03481988747" , "CAF CGN" , "44.4526" , "7.50272" , " "]
 
-classe94 = [  "  Torino "  ,  "  C.so Siccardi 6 "  ,  "  011 5629203 "  ,  "  CAF ACLI "   ,  " 45.0718099 "  ,  " 7.6748115000000325 ", " "]
+classe188 = ["DIANO D'ALBA" , "Via Vittorio Emanuele 17" , "0173320101" , "CAF CGN" , "44.6491" , "8.0294" , " "]
 
+classe189 = ["DOMODOSSOLA" , "Via Marconi 44" , "0324242135" , "CAF CGN" , "46.116" , "8.29363" , " "]
 
-classe95 = [  "  Torino "  ,  "  C.so Cadore 20 int.8 "  ,  "  011 8902909 "  ,  "  CAF ACLI "   ,  " 45.0755 "  ,  " 7.7228999999999814 ", " "]
+classe190 = ["DOMODOSSOLA" , "Corso Dissegna 29" , "0324570267" , "CAF CGN" , "46.1133" , "8.29383" , " "]
 
+classe191 = ["FOSSANO" , "Via Marconi 39-41" , "0172636400" , "CAF CGN" , "44.5462" , "7.72192" , " "]
 
-classe96 = [  "  Torino "  ,  "  Via Ceresole 42 "  ,  "  011 2462092 "  ,  "  CAF ACLI "   ,  " 45.096927 "  ,  " 7.690072399999963 ", " "]
+classe192 = ["GALLIATE" , "Via Canonico Diana 10" , "0321866576" , "CAF CGN" , "45.4764" , "8.69602" , " "]
 
+classe193 = ["GAVI" , "Via Garibaldi 27" , " 0131445322" , "CAF CGN" , "44.6889" , "8.80413" , " "]
 
-classe97 = [  "  Torino "  ,  "  Viale Buridani 11/2 "  ,  "  011 4597570 "  ,  "  CAF ACLI "   ,  " 45.13188 "  ,  " 7.631989999999973 ", " "]
+classe194 = ["GHEMME" , "Via Novara 100" , "0163840242" , "CAF CGN" , "45.595" , "8.42377" , " "]
 
+classe195 = ["GHEMME" , "Piazza Caslo 18" , "0163841637" , "CAF CGN" , "45.5993" , "8.41851" , " "]
 
-classe98 = [  "  Gravellona Toce "  ,  "  C.so Sempione  95 "  ,  "  032 3864932 "  ,  "  CAF ACLI "   ,  " 45.9305993 "  ,  " 8.430557200000067 ", " "]
+classe196 = ["GIAVENO" , "Viale Regina Elena 35" , "0119378765" , "CAF CGN" , "45.0407" , "7.35428" , " "]
 
+classe197 = ["GIAVENO" , "Viale Regina Elena 28" , "0119377998" , "CAF CGN" , "45.0408" , "7.35406" , " "]
 
-classe99 = [  "  Domodossola "  ,  "  Via Galletti 53/57 "  ,  "  032 445487 "  ,  "  CAF ACLI "   ,  " 46.1132757 "  ,  " 8.291728700000021 ", " "]
+classe198 = ["GIAVENO" , "Via Roma 25" , "0112637782" , "CAF CGN" , "45.0425" , "7.353" , " "]
 
+classe199 = ["GRAVELLONA TOCE" , "Via Privata Pariani 31" , "0323848922" , "CAF CGN" , "45.9269" , "8.43513" , " "]
 
-classe100 = [  "  Verbania "  ,  "  C.so Cairoli 52 "  ,  "  032 452363 "  ,  "  CAF ACLI "   ,  " 45.9414264 "  ,  " 8.565972999999985 ", " "]
+classe200 = ["GRAVELLONA TOCE" , "Piazza Resistenza 19" , "0323840849" , "CAF CGN" , "45.928" , "8.43139" , " "]
 
+classe201 = ["GRUGLIASCO" , "Viale Gramsci 69" , "011786308" , "CAF CGN" , "45.0683" , "7.57941" , " "]
 
-classe101 = [  "  Villadossola "  ,  "  P.za Bagnolini 14 "  ,  "  032 4501650 "  ,  "  CAF ACLI "   ,  " 46.065482 "  ,  " 8.26154299999996 ", " "]
+classe202 = ["IVREA" , "Via De Gasperi 4" , "0125635088" , "CAF CGN" , "45.4687" , "7.88653" , " "]
 
+classe203 = ["MASSERANO" , "Via Roma 37" , "01596326" , "CAF CGN" , "45.5902" , "8.22497" , " "]
 
-classe102 = [  "  Vercelli "  ,  "  Via P. Gobetti 1 "  ,  "  016 1250100 "  ,  "  CAF ACLI "   ,  " 45.3248976 "  ,  " 8.418504299999995 ", " "]
+classe204 = ["MATHI" , "Via Martiri della Libertà 29" , "0119269982" , "CAF CGN" , "45.2588" , "7.54137" , " "]
 
+classe205 = ["MONCALIERI" , "Via Vittorio Alfieri 17" , "0116408142" , "CAF CGN" , "45.0008" , "7.68396" , " "]
 
-classe103 = [  "  Borgosesia "  ,  "  Via Giordano 28 "  ,  "  016 326706 "  ,  "  CAF ACLI "   ,  " 45.7165555 "  ,  " 8.274029499999983 ", " "]
+classe206 = ["MONDOVÌ" , "Corso Statuto 20" , "0172636400" , "CAF CGN" , "44.3882" , "7.82046" , " "]
 
+classe207 = ["MONDOVÌ" , "Piazza Maggiore 3" , "0174339426" , "CAF CGN" , "44.3888" , "7.8301" , " "]
 
-classe104 = [  "  Crescentino "  ,  "  Via Arditi 16 "  ,  "  016 1841214 "  ,  "  CAF ACLI "   ,  " 45.1919142 "  ,  " 8.102800200000047 ", " "]
+classe208 = ["MOTTA DE' CONTI" , "Via Roma 64" , "0161780820" , "CAF CGN" , "45.1914" , "8.51751" , " "]
 
+classe209 = ["NOVARA" , "Via g.Ferrari 5" , "032135050" , "CAF CGN" , "45.449" , "8.62127" , " "]
 
-classe105 = [  "  Gattinara "  ,  "  Via Gioberti 5 "  ,  "  016 3832566 "  ,  "  CAF ACLI "   ,  " 45.61587000000001 "  ,  " 8.371740000000045 ", " "]
+classe210 = ["NOVARA" , "Via brescia 2" , "03211711058" , "CAF CGN" , "45.4332" , "8.59676" , " "]
 
+classe211 = ["NOVARA" , "Corso trieste 4b" , "0321233539" , "CAF CGN" , "45.4473" , "8.63226" , " "]
 
-classe106 = [  "  Santhia "  ,  "  C.so Matteotti  47 "  ,  "  016 1930649 "  ,  "  CAF ACLI "   ,  " 45.364343 "  ,  " 8.173707000000036 ", " "]
+classe212 = ["NOVARA" , "Corso trieste 7" , "3331469501" , "CAF CGN" , "45.448" , "8.63395" , " "]
 
+classe213 = ["NOVI LIGURE" , "Via Garibaldi 95" , "0143323315" , "CAF CGN" , "44.7636" , "8.78844" , " "]
 
-classe107 = [  "  Torino "  ,  "  Via Bertola 49/a "  ,  "  011 5741511 "  ,  "  CAF CISL "   ,  " 45.07333149999999 "  ,  " 7.6716665999999805 ", " "]
+classe214 = ["NOVI LIGURE" , "Viale Saffi 32" , "01431500022" , "CAF CGN" , "44.7644" , "8.78763" , " "]
 
+classe215 = ["NOVI LIGURE" , "Via Garibaldi 81" , "0143744216" , "CAF CGN" , "44.763" , "8.78913" , " "]
 
-classe108 = [  "  Torino "  ,  "  Via Campana 20 "  ,  "  065 20091 "  ,  "  CAF CISL "   ,  " 45.0545575 "  ,  " 7.680613799999946 ", " "]
+classe216 = ["NOVI LIGURE" , "Viale A.Saffi 19" , "014378914" , "CAF CGN" , "44.7634" , "8.78691" , " "]
 
+classe217 = ["OMEGNA" , "Piazza F.M.Beltrami 10" , "0323883098" , "CAF CGN" , "45.8731" , "8.38845" , " "]
 
-classe109 = [  "  Torino "  ,  "  P.za Bottesini 5/a "  ,  "  011 235724 "  ,  "  CAF CISL "   ,  " 45.0888645 "  ,  " 7.697257300000047 ", " "]
+classe218 = ["OMEGNA" , "Piazza Martiri della Libertà" , "0323866022" , "CAF CGN" , "45.8773" , "8.4096" , " "]
 
+classe219 = ["ORBASSANO" , "Via Vittorio Alfieri 10" , "01119774921" , "CAF CGN" , "45.0067" , "7.54138" , " "]
 
-classe110 = [  "  Torino "  ,  "  Via Breglio 104 "  ,  "  011 213581 "  ,  "  CAF CISL "   ,  " 45.0994132 "  ,  " 7.675455400000033 ", " "]
+classe220 = ["ORBASSANO" , "Strada Torino 43/36" , "01119886250" , "CAF CGN" , "45.016" , "7.56857" , " "]
 
+classe221 = ["ORBASSANO" , "Strada Torino 43" , "01119886251" , "CAF CGN" , "45.016" , "7.56857" , " "]
 
-classe111 = [  "  Torino "  ,  "  C.so Orbassano 203/c "  ,  "  011 351571 "  ,  "  CAF CISL "   ,  " 45.0431564 "  ,  " 7.640634299999988 ", " "]
+classe222 = ["PEROSA ARGENTINA" , "Piazza Europa 6" , "012182234" , "CAF CGN" , "44.958" , "7.19176" , " "]
 
+classe223 = ["PEROSA ARGENTINA" , "Via Roma 24/e" , "0121804383" , "CAF CGN" , "44.9567" , "7.19208" , " "]
 
-classe112 = [  "  Torino "  ,  "  Via Bartoli 8 "  ,  "  011 6177111 "  ,  "  CAF CISL "   ,  " 45.022479 "  ,  " 7.644409600000017 ", " "]
+classe224 = ["PINEROLO" , "Via Ettore Bignone 83/m" , "0121321754" , "CAF CGN" , "44.8809" , "7.34517" , " "]
 
+classe225 = ["POIRINO" , "Via Pralormo 9" , "0119453295" , "CAF CGN" , "44.9176" , "7.84816" , " "]
 
-classe113 = [  "  Orbassano "  ,  "  Via Castellazzo 50 "  ,  "  011 9011439 "  ,  "  CAF CISL "   ,  " 45.0053029 "  ,  " 7.536892399999942 ", " "]
+classe226 = ["RIVAROSSA" , "Via Don Cavoretto 13" , "0119888526" , "CAF CGN" , "45.2511" , "7.71704" , " "]
 
+classe227 = ["RIVOLI" , "Corso Kennedy 48/18" , "0119573850" , "CAF CGN" , "45.0821" , "7.56703" , " "]
 
-classe114 = [  "  Cascine Vica "  ,  "  C.so Francia 119 "  ,  "  011 9552014 "  ,  "  CAF CISL "   ,  " 45.07142 "  ,  " 7.542410000000018 ", " "]
+classe228 = ["RIVOLI" , "Via Pavia 11/B" , "0119575746" , "CAF CGN" , "45.0711" , "7.55652" , " "]
 
+classe229 = ["RIVOLI" , "Piazza Martiri della Libertà" , "0119566555" , "CAF CGN" , "45.0698" , "7.51946" , " "]
 
-classe115 = [  "  Pinerolo "  ,  "  C.so Torino 18 "  ,  "  0121 361611 "  ,  "  CAF CISL "   ,  " 44.8836473 "  ,  " 7.330934399999933 ", " "]
+classe230 = ["SAN GIUSTO CANAVESE" , "Viale Garimonda 14" , "0124493896" , "CAF CGN" , "45.3102" , "7.80844" , " "]
 
+classe231 = ["SANTA MARIA MAGGIORE" , "Via Cadorna 32" , "032494104" , "CAF CGN" , "46.136" , "8.46231" , " "]
 
-classe116 = [  "  Ciriè "  ,  "  C.so Nazioni Unite 64 "  ,  "  011 9224803 "  ,  "  CAF CISL "   ,  " 45.23765 "  ,  " 7.606719999999996 ", " "]
+classe232 = ["SAN MAURIZIO CANAVESE" , "Via Vittorio Emanuele Ii 38" , "0110740433" , "CAF CGN" , "45.2186" , "7.6317" , " "]
 
+classe233 = ["SAN MAURO TORINESE" , "Via Roma 90" , "0118220273" , "CAF CGN" , "45.1031" , "7.75472" , " "]
 
-classe117 = [  "  Settimo T.se "  ,  "  P.za Vittorio Veneto 6 "  ,  "  011 8169811 "  ,  "  CAF CISL "   ,  " 45.25725 "  ,  " 9.201699100000042 ", " "]
+classe234 = ["SAN RAFFAELE CIMENA" , "Via Torino 2" , "0119600180" , "CAF CGN" , "45.1796" , "7.84165" , " "]
 
+classe235 = ["SAN SALVATORE MONFERRATO" , "Via Panza 51" , "0131239411" , "CAF CGN" , "44.9953" , "8.56659" , " "]
 
-classe118 = [  "  Moncalieri "  ,  "  Via M. della Libertà 29 "  ,  "  011 6433816 "  ,  "  CAF CISL "   ,  " 45.0021175 "  ,  " 7.656054400000016 ", " "]
+classe236 = ["SALUZZO" , "Via Valoria Inferiore 10" , "0175219406" , "CAF CGN" , "44.6434" , "7.49199" , " "]
 
+classe237 = ["SANFRONT" , "Via Meniella 15/a" , "0175986001" , "CAF CGN" , "44.6451" , "7.32483" , " "]
 
-classe119 = [  "  Venaria "  ,  "  P.za Annunziata 5 "  ,  "  011 4593965 "  ,  "  CAF CISL "   ,  " 45.134103 "  ,  " 7.628773799999976 ", " "]
+classe238 = ["SANTHIÀ" , "Via Adua 7" , "0161935198" , "CAF CGN" , "45.3648" , "8.17785" , " "]
 
+classe239 = ["SANTHIÀ" , "Via Juvarra 8" , "01611859110" , "CAF CGN" , "45.3686" , "8.15974" , " "]
 
-classe120 = [  "  Cuneo "  ,  "  Via Cascina Colombaro 33 "  ,  "  0171/321051 "  ,  "  CAF CISL "   ,  " 44.3773692 "  ,  " 7.523255500000005 ", " "]
+classe240 = ["SETTIMO TORINESE" , "Via Roma 16" , "0118009696" , "CAF CGN" , "45.1391" , "7.77023" , " "]
 
+classe241 = ["SETTIMO TORINESE" , "Via Verdi 24" , "3275608648" , "CAF CGN" , "45.1402" , "7.77231" , " "]
 
-classe121 = [  "  Alba "  ,  "  Vicolo S. Biagio 7/A "  ,  "  0173 29.32.33 "  ,  "  CAF CISL "   ,  " 44.6982274 "  ,  " 8.03624519999994 ", " "]
+classe242 = ["SETTIMO TORINESE" , "Piazza G.Astengo 2" , "0113745525" , "CAF CGN" , "45.1396" , "7.77098" , " "]
 
+classe243 = ["SUSA" , "Via Brunetta 7" , "0122622960" , "CAF CGN" , "45.1391" , "7.05004" , " "]
 
-classe122  = [  "  "  ,  "   C.i.s.l. 8 Via Sartori Sen Bra CN 12042 "  ,  "  0172 425699 "  ,  "  CAF CISL "   ,  " 44.7035 "  ,  "  7.8417 ", " "]
+classe244 = ["TRIVERO" , "Frazione Pratrivero 210" , "015779344" , "CAF CGN" , "45.6646" , "8.18141" , " "]
 
+classe245 = ["TRIVERO" , "Strada Ponzone 185" , "0157388835" , "CAF CGN" , "45.6533" , "8.18493" , " "]
 
-classe123 = [  "  Ceva "  ,  "  P.zza Gandolfi 17 "  ,  "  017472.24.30 "  ,  "  CAF CISL "   ,  " 44.386494 "  ,  " 8.035125999999991 ", " "]
+classe246 = ["TORRE PELLICE" , "Via Matteo Gay 9" , "012191848" , "CAF CGN" , "44.8191" , "7.20504" , " "]
 
+classe247 = ["TORRE PELLICE" , "Via Caduti Per La Libertà 3" , "012191958" , "CAF CGN" , "44.8205" , "7.22294" , " "]
 
-classe124 = [  "  Fossano "  ,  "  Via Matteotti 46 "  ,  "  0172/63.52.99 "  ,  "  CAF CISL "   ,  " 44.548283 "  ,  " 7.721097999999984 ", " "]
+classe248 = ["TRONZANO VERCELLESE" , "Via Abbondo 35" , "0161912286" , "CAF CGN" , "45.3432" , "8.17414" , " "]
 
+classe249 = ["TRONZANO VERCELLESE" , "Via Paletto 2" , "0161911236" , "CAF CGN" , "45.3453" , "8.17422" , " "]
 
-classe125 = [  "  Mondovì "  ,  "  C.so Statuto 7 "  ,  "  0174/41.209 "  ,  "  CAF CISL "   ,  " 44.386605 "  ,  " 7.820100000000025 ", " "]
+classe250 = ["VALENZA" , "Via Mazzini 16" , "0131952588" , "CAF CGN" , "45.0121" , "8.64468" , " "]
 
+classe251 = ["VALENZA" , "Via Tortona 48" , "0131482488" , "CAF CGN" , "45.0095" , "8.63492" , " "]
 
-classe126 = [  "  Saluzzo "  ,  "  C.so Piemonte 39 "  ,  "  0175/43.815 "  ,  "  CAF CISL "   ,  " 44.646715 "  ,  " 7.487837000000013 ", " "]
+classe252 = ["VALENZA" , "Viale Dante 24" , "0131972040" , "CAF CGN" , "45.0118" , "8.64199" , " "]
 
+classe253 = ["VALLE MOSSO" , "Via Roma 35" , "015702484" , "CAF CGN" , "45.6348" , "8.14179" , " "]
 
-classe127 = [  "  Savigliano "  ,  "  Via Cernaia 11 "  ,  "  0172/31.501 "  ,  "  CAF CISL "   ,  " 44.6484866 "  ,  " 7.654070899999965 ", " "]
+classe254 = ["VARALLO" , "Via Gippa 6" , "016353335" , "CAF CGN" , "45.817" , "8.25385" , " "]
 
+classe255 = ["VARALLO" , "Via Frali Varalli" , "0163564419" , "CAF CGN" , "45.7937" , "8.27551" , " "]
 
-classe128 = [  "  Torino "  ,  "  Via Montanaro 6/a "  ,  "  011 2475782 "  ,  "  CAF NAZ. DEL LAVORO "   ,  " 45.0900999 "  ,  " 7.693812799999932 ", " "]
+classe256 = ["VARALLO" , "C.so Roma 5" , "0163 52868" , "CAF CGN" , "45.8143" , "8.2547" , " "]
 
+classe257 = ["VENARIA REALE" , "Corso Machiavelli 186" , "3270145784" , "CAF CGN" , "45.121" , "7.62386" , " "]
 
-classe129 = [  "  Asti "  ,  "  Via Caracciolo 2/b "  ,  "  0141 351237 "  ,  "  CAF NAZ. DEL LAVORO "   ,  " 44.8998141 "  ,  " 8.197457600000007 ", " "]
+classe258 = ["VENARIA REALE" , "Via IV Novembre 21" , "0116988721" , "CAF CGN" , "45.1279" , "7.63282" , " "]
 
+classe259 = ["VERCELLI" , "Corso Fiume 27" , "01621257466" , "CAF CGN" , "45.3247" , "8.41446" , " "]
 
-classe130 = [  "  Vercelli "  ,  "  Via Viotti 6 "  ,  "  0161 51739 "  ,  "  CAF NAZ. DEL LAVORO "   ,  " 45.3269057 "  ,  " 8.418216900000061 ", " "]
+classe260 = ["VERCELLI" , "Via dante 71" , "0161257117" , "CAF CGN" , "45.326" , "8.41905" , " "]
 
+classe261 = ["VICOFORTE" , "Viale G.Marconi 12/b" , "0174671035" , "CAF CGN" , "44.3649" , "7.85783" , " "]
 
-classe131 = [  "  Torino "  ,  "  Via Montanaro 6/a "  ,  "  011 2410585 "  ,  "  CAF TUTELA FISCALE DEL CONTRIBUENTE "   ,  " 45.0900999 "  ,  " 7.693812799999932 ", " "]
+classe262 = ["VIGLIANO BIELLESE" , "Via Milano 215" , "015811858" , "CAF CGN" , "45.5624" , "8.10979" , " "]
 
+classe263 = ["VIGONE" , "Via Luisia 7" , "0119809478" , "CAF CGN" , "44.8435" , "7.49295" , " "]
 
-classe132 = [  "  Novara "  ,  "  Via Monte Santo 16 "  ,  "  0312 684702 "  ,  "  CAF TUTELA FISCALE DEL CONTRIBUENTE "   ,  " 45.43696 "  ,  " 8.627650000000017 ", " "]
+classe264 = ["VILLAFRANCA D'ASTI" , "Piazza Marconi 46" , "0141943832" , "CAF CGN" , "44.913" , "8.03207" , " "]
 
+classe265 = ["VILLANOVA D'ASTI" , "Piazza IV Novembre 3" , "0141948874" , "CAF CGN" , "44.9418" , "7.93755" , " "]
 
-classe133 = [  "  Asti "  ,  "  Via Pascoli 21 "  ,  "  0141 558408 "  ,  "  CAF TUTELA FISCALE DEL CONTRIBUENTE "   ,  " 44.9000314 "  ,  " 8.2129281 ", " "]
+classe266 = ["TORINO" , "Via Bologna 11" , " 011 4364269" , "CAF UIL" , "45.0804" , "7.69097" , " "]
 
+classe267 = ["TORINO" , "Via Sidoli 16" , " 011 3161714" , "CAF UIL" , "45.0267" , "7.64653" , " "]
 
-classe134 = [  "  Vercelli "  ,  "  Via Mameli 3 "  ,  "  0161 252926 "  ,  "  CAF TUTELA FISCALE DEL CONTRIBUENTE "   ,  " 45.3249625 "  ,  " 8.419229599999994 ", " "]
+classe268 = ["TORINO" , "Via Bologna 15/a" , " 011 280392" , "CAF UIL" , "45.0806" , "7.69134" , " "]
 
+classe269 = ["TORINO" , "Via Luini 52" , " 0112215594" , "CAF UIL" , "45.0973" , "7.66562" , " "]
 
-classe135 = [  "  Alessandria "  ,  "  Via S. Giacomo della Vittoria 38 "  ,  "  0131 535464 "  ,  "  CAF TUTELA FISCALE DEL CONTRIBUENTE "   ,  " 44.9135104 "  ,  " 8.615232099999957 ", " "]
+classe270 = ["BORGARETTO-BEINASCO" , "P.za Kennedy 37" , "0113989315" , "CAF ACLI" , "45.0061" , "7.60319" , " "]
 
+classe271 = ["BORGARO TORINESE" , "Via Lanzo 175" , "0114704757" , "CAF ACLI" , "45.1534" , "7.65405" , " "]
 
-classe136 = [  "  Torino "  ,  "  Via Bava 14 "  ,  "  011 882973 "  ,  "  CAF DOC "   ,  " 45.0665536 "  ,  " 7.698745599999938 ", " "]
+classe272 = ["CARMAGNOLA" , "P.za IV Martiri 21" , "0119722453" , "CAF ACLI" , "44.8469" , "7.72336" , " "]
 
+classe273 = ["CHIERI" , "Piazza Trieste 2/a" , "011 9422561" , "CAF ACLI" , "45.0105" , "7.82043" , " "]
 
-classe137 = [  "  Torino "  ,  "  Via P.Sarpi 92 "  ,  "  034 74062934 "  ,  "  CAF DOC "   ,  " 45.0345914 "  ,  " 7.64472580000006 ", " "]
+classe274 = ["CHIVASSO" , "Via Italia 10" , "0119102209" , "CAF ACLI" , "45.1919" , "7.88847" , " "]
 
+classe275 = ["IVREA" , "C.so Nigra 64" , "0125641631" , "CAF ACLI" , "45.4621" , "7.87466" , " "]
 
-classe138 = [  "  Torino "  ,  "  Corso Turati 10 "  ,  "  011 5808458 "  ,  "  CAF DOC "   ,  " 45.0541513 "  ,  " 7.67040099999997 ", " "]
+classe276 = ["NICHELINO" , "Via Giusti 22" , "0116271889" , "CAF ACLI" , "44.9943" , "7.65004" , " "]
 
+classe277 = ["PINEROLO" , "C.so Torino 216/B" , "0121322621" , "CAF ACLI" , "44.8863" , "7.34042" , " "]
 
-classe139 = [  "  Torino "  ,  "  Via Michele Schina 7 "  ,  "  011 4731011 "  ,  "  CAF DOC "   ,  " 45.0775164 "  ,  " 7.663290700000061 ", " "]
+classe278 = ["RIVAROLO CANAVESE" , "C.so Italia 19" , "0124425553" , "CAF ACLI" , "45.3339" , "7.72335" , " "]
 
+classe279 = ["RIVOLI" , "Via Gili 1" , "0119566208" , "CAF ACLI" , "45.071" , "7.51927" , " "]
 
-classe140 = [  "  Torino "  ,  "  Corso Stati Uniti 6 "  ,  "  011 764000 "  ,  "  CAF DOC "   ,  " 45.0613907 "  ,  " 7.675094299999955 ", " "]
+classe280 = ["SETTIMO TORINESE" , "Via Regio Parco 24" , "0112076065" , "CAF ACLI" , "45.1316" , "7.75747" , " "]
 
+classe281 = ["TORINO" , "C.so Unione Sovietica 314" , "0115712760" , "CAF ACLI" , "45.031" , "7.64413" , " "]
 
-classe141 = [  "  Torino "  ,  "  Via Morghen 35 "  ,  "  011 4341760 "  ,  "  CAF DOC "   ,  " 45.079923 "  ,  " 7.657763400000022 ", " "]
+classe282 = ["TORINO" , "C.so Palermo 116/A" , "0115712760" , "CAF ACLI" , "45.0895" , "7.6934" , " "]
 
+classe283 = ["TORINO" , "Via Nizza 369/E" , "0115712760" , "CAF ACLI" , "45.0207" , "7.66258" , " "]
 
-classe142 = [  "  Torino "  ,  "  Via Genova 240 "  ,  "  011 6633106 "  ,  "  CAF DOC "   ,  " 45.0192045 "  ,  " 7.663923199999999 ", " "]
+classe284 = ["TORINO" , "C.so Cadore 20" , "0115712760" , "CAF ACLI" , "45.0755" , "7.7229" , " "]
 
+classe285 = ["TORINO" , "Via Perrone 3 " , "0115712760" , "CAF ACLI" , "45.0741" , "7.6737" , " "]
 
-classe143 = [  "  Lanzo Torinese "  ,  "  Via Matteotti 3 "  ,  "  012 328070 "  ,  "  CAF DOC "   ,  " 45.2738931 "  ,  " 7.4817891000000145 ", " "]
+classe286 = ["TORINO" , "Via dei Quartieri 6/l" , "0115712760" , "CAF ACLI" , "45.0761" , "7.67512" , " "]
 
+classe287 = ["VENARIA REALE" , "Viale Buridani 11/2" , "011.4597570" , "CAF ACLI" , "45.1318" , "7.63224" , " "]
 
-classe144 = [  "  Alessandria "  ,  "  Corso Roma 36 "  ,  "  013 1262569 "  ,  "  CAF DOC "   ,  " 44.912536 "  ,  " 8.613261999999963 ", " "]
+classe288 = ["TORINO" , "P.za Bottesini 5/a" , "011 235724" , "CAF CISL" , "45.0889" , "7.69726" , " "]
 
+classe289 = ["TORINO" , "Via Bertola 49/a" , " 011 5741511" , "CAF CISL" , "45.0733" , "7.67188" , " "]
 
-classe145 = [  "  Cuneo "  ,  "  Via Xx Settembre 42 "  ,  "  017 165699 "  ,  "  CAF DOC "   ,  " 44.3854781 "  ,  " 7.54151939999997 ", " "]
+classe290 = ["TORINO" , "Via Breglio 104/b" , " 011 213581" , "CAF CISL" , "45.0993" , "7.67557" , " "]
 
+classe291 = ["TORINO" , "Via Campana 20" , " 6520091" , "CAF CISL" , "45.0545" , "7.68033" , " "]
 
-classe146 = [  "  Torino "  ,  "  Corso Vercelli 136 "  ,  "  011 0362316 "  ,  "  CAF ITALIA "   ,  " 45.0970964 "  ,  " 7.692423599999984 ", " "]
+classe292 = ["TORINO" , "Via Santa Giulia 40" , "011 8136605" , "CAF CISL" , "45.0701" , "7.69792" , " "]
 
+classe293 = ["TORINO" , "C.so Orbassano 203/c" , " 011351571" , "CAF CISL" , "45.0435" , "7.64088" , " "]
 
-classe147 = [  "  Torino "  ,  "  Via Torricelli 60 "  ,  "  011 503946 "  ,  "  CAF ITALIA "   ,  " 45.0557986 "  ,  " 7.656911499999978 ", " "]
+classe294 = ["TORINO" , "Via Bartoli 8" , " 011 6177119" , "CAF CISL" , "45.0224" , "7.64449" , " "]
 
+classe295 = ["TORINO" , "Via Nicomede Bianchi 8" , "0116177119" , "CAF CISL" , "45.0816" , "7.6377" , " "]
 
-classe148 = [  "  Torino "  ,  "  P.za Statuto 10 "  ,  "  011 5175379 "  ,  "  CAF ITALIA "   ,  " 45.0762958 "  ,  " 7.6716281999999865 ", " "]
+classe296 = ["TORINO" , "Via Limone 5" , "011 748058" , "CAF CISL" , "45.0616" , "7.64443" , " "]
 
+classe297 = ["TORINO" , "Via Foglizzo 26/a" , "011 737634" , "CAF CISL" , "45.0979" , "7.64946" , " "]
 
-classe149 = [  "  Torino "  ,  "  Corso Agnelli 4 "  ,  "  011 6992195 "  ,  "  CAF ITALIA "   ,  " 45.04346109999999 "  ,  " 7.648781600000007 ", " "]
+classe298 = ["ACQUI TERME" , "Via Berlingeri 106" , " 0144 322868" , "CAF CISL" , "44.6788" , "8.46898" , " "]
 
+classe299 = ["ALBA" , "Vicolo S.Biagio 7/a" , "0173 293233" , "CAF CISL" , "44.6981" , "8.03636" , " "]
 
-classe150 = [  "  Torino "  ,  "  Corso Palermo 110 A "  ,  "  011 2458915 "  ,  "  CAF ITALIA "   ,  " 45.0886123 "  ,  " 7.693421100000023 ", " "]
+classe300 = ["ALESSANDRIA" , "Via Tripoli 14" , " 0131204701" , "CAF CISL" , "44.9125" , "8.61931" , " "]
 
+classe301 = ["ALESSANDRIA CRISTO" , "Corso Acqui 103" , " 0131348263" , "CAF CISL" , "44.6797" , "8.4601" , " "]
 
-classe151 = [  "  Torino "  ,  "  Via Borgosesia 100 "  ,  "  011 7410403 "  ,  "  CAF ITALIA "   ,  " 45.0833776 "  ,  " 7.64020830000004 ", " "]
+classe302 = ["ALMESE" , "Via Roma 35/2" , " 011 9350601" , "CAF CISL" , "45.1173" , "7.39332" , " "]
 
+classe303 = ["ALPIGNANO" , "Via Matteotti 47" , " 011 9679770" , "CAF CISL" , "45.096" , "7.52545" , " "]
 
-classe152 = [  "  Torino "  ,  "  Strada Lanzo 115 B "  ,  "  011 4371665 "  ,  "  CAF ITALIA "   ,  " 45.1139539 "  ,  " 7.65884989999995 ", " "]
+classe304 = ["ARONA" , "Via Mazzini 10" , "0322 242590" , "CAF CISL" , "45.7584" , "8.55502" , " "]
 
+classe305 = ["ARQUATA SCRIVIA" , "Via Cavour 30" , " 0143 636330" , "CAF CISL" , "44.6909" , "8.88475" , " "]
 
-classe153 = [  "  Torino "  ,  "  Via Monginevro 4/E "  ,  "  011 4349751 "  ,  "  CAF ITALIA "   ,  " 45.06548000000001 "  ,  " 7.653868299999999 ", " "]
+classe306 = ["ASTI" , "Via XX Settembre 10" , " 0141 33218" , "CAF CISL" , "44.8977" , "8.20436" , " "]
 
+classe307 = ["BELLINZAGO" , "Via Matteotti 32" , "0321927668" , "CAF CISL" , "45.5647" , "9.40021" , " "]
 
-classe154 = [  "  Torino "  ,  "  Via Induno 20/B "  ,  "  011 3116145 "  ,  "  CAF ITALIA "   ,  " 45.0375683 "  ,  " 7.62112209999998 ", " "]
+classe308 = ["BIANDRATE" , "Via Matteotti 22" , "0321838545" , "CAF CISL" , "45.453" , "8.46386" , " "]
 
+classe309 = ["BIELLA" , "Via Garibaldi 8" , "015 0973010" , "CAF CISL" , "45.5639" , "8.05363" , " "]
 
-classe155 = [  "  Torino "  ,  "  Via Cecchi 7/D "  ,  "  011 19707885 "  ,  "  CAF ITALIA "   ,  " 45.0850704 "  ,  " 7.682770099999971 ", " "]
+classe310 = ["BORGOMANERO" , "Via S.Giovanni 52" , "032281624" , "CAF CISL" , "45.6986" , "8.4661" , " "]
 
+classe311 = ["BORGONE DI SUSA" , "Via IV Novembre 7" , "011 96417172" , "CAF CISL" , "45.1074" , "7.28331" , " "]
 
-classe156 = [  "  Torino "  ,  "  Via Breglio 129 "  ,  "  011 214283 "  ,  "  CAF ITALIA "   ,  " 45.09958 "  ,  " 7.671860000000038 ", " "]
+classe312 = ["BORGOSESIA" , "Via Duca D`Aosta 63" , "0163 21335" , "CAF CISL" , "45.7165" , "8.28034" , " "]
 
+classe313 = ["BRA" , "Via Senator Sartori 8" , "0172 425699" , "CAF CISL" , "-23.0373" , "-45.6125" , " "]
 
-classe157 = [  "  Torino "  ,  "  Via Toce 23 "  ,  "  011 19702369 "  ,  "  CAF ITALIA "   ,  " 45.1237171 "  ,  " 7.712238599999978 ", " "]
+classe314 = ["CALUSO" , "Via Micheletti 5" , "011 9831673" , "CAF CISL" , "45.3085" , "7.88906" , " "]
 
+classe315 = ["CANELLI" , "Via Roma 67" , "0141/822915" , "CAF CISL" , "44.7198" , "8.28919" , " "]
 
-classe158 = [  "  Torino "  ,  "  Via Fontanesi 31 "  ,  "  011 19703228 "  ,  "  CAF ITALIA "   ,  " 45.0733707 "  ,  " 7.708696099999997 ", " "]
+classe316 = ["CARMAGNOLA" , "Via Rossini 26" , "011 9716572" , "CAF CISL" , "44.8454" , "7.72222" , " "]
 
+classe317 = ["CASALE MONFERRATO" , "Via Rivetta 41" , "0142 781012" , "CAF CISL" , "45.1394" , "8.45292" , " "]
 
-classe159 = [  "  Torino "  ,  "  Via Vigliani 185 "  ,  "  011 3179050 "  ,  "  CAF ITALIA "   ,  " 45.0175603 "  ,  " 7.655251000000021 ", " "]
+classe318 = ["CASCINE VICA" , "C.so Francia 119" , " 011 9552011" , "CAF CISL" , "45.0714" , "7.54241" , " "]
 
+classe319 = ["CASLAMONTE" , "P.zza della Repubblica 5" , "0124 582470" , "CAF CISL" , "45.3833" , "7.71347" , " "]
 
-classe160 = [  "  Torino "  ,  "  Via Tiziano 40 "  ,  "  011 19662547 "  ,  "  CAF ITALIA "   ,  " 45.04469 "  ,  " 7.677052799999956 ", " "]
+classe320 = ["CASLETTO TICINO" , "Via San Carlo 8" , "0331/973030" , "CAF CISL" , "45.8998" , "8.97797" , " "]
 
+classe321 = ["CASNUOVO SCRIVIA" , "via Garibaldi 62" , "0131 855564" , "CAF CISL" , "44.9797" , "8.88105" , " "]
 
-classe161 = [  "  Torino "  ,  "  Via Balme 22 "  ,  "  011 7428088 "  ,  "  CAF ITALIA "   ,  " 45.0805496 "  ,  " 7.652823399999988 ", " "]
+classe322 = ["CAVAGLIA'" , "Via Umberto I 43" , "0161/967866" , "CAF CISL" , "45.4044" , "8.09202" , " "]
 
+classe323 = ["CEVA" , "P.zza Gandolfi 17" , "0174 722430" , "CAF CISL" , "44.3865" , "8.03513" , " "]
 
-classe162 = [  "  Torino "  ,  "  C.So Montecucco 129/5 "  ,  "  011 3821722 "  ,  "  CAF ITALIA "   ,  " 45.0632023 "  ,  " 7.630823100000043 ", " "]
+classe324 = ["CHIERI" , "Piazza Duomo 3" , "011 9414435" , "CAF CISL" , "45.0113" , "7.82262" , " "]
 
+classe325 = ["CHIVASSO" , "Vicolo Piazza d'Armi" , "011 9114943" , "CAF CISL" , "45.1888" , "7.88671" , " "]
 
-classe163 = [  "  Torino "  ,  "  Via Locana 39/B "  ,  "  011 0462189 "  ,  "  CAF ITALIA "   ,  " 45.0800764 "  ,  " 7.651681800000006 ", " "]
+classe326 = ["CIRIÈ" , "C.so Nazioni Unite 64" , " 011 9224803" , "CAF CISL" , "45.2377" , "7.60672" , " "]
 
+classe327 = ["COSSATO" , "Via Mazzini 2-c/o Esedra" , "015 9555454" , "CAF CISL" , "45.566" , "8.1732" , " "]
 
-classe164 = [  "  Torino "  ,  "  Via Pio VII 132 Bis "  ,  "  011 3170145 "  ,  "  CAF ITALIA "   ,  " 45.0203826 "  ,  " 7.649365399999965 ", " "]
+classe328 = ["COSTIGLIOLE D'ASTI" , "Via Roma 1" , "0141 961811" , "CAF CISL" , "44.7881" , "8.18032" , " "]
 
+classe329 = ["CREVACUORE" , "Via Garibaldi 17" , "015 768630" , "CAF CISL" , "45.6859" , "8.24825" , " "]
 
-classe165 = [  "  Torino "  ,  "  Va Frinco 25 "  ,  "  011 361215 "  ,  "  CAF ITALIA "   ,  " 45.050003 "  ,  " 7.650181900000007 ", " "]
+classe330 = ["CUNEO" , "Via Cascina Colombaro 33" , " 0171 321051" , "CAF CISL" , "44.3775" , "7.52342" , " "]
 
+classe331 = ["COURGNÈ" , "Via S.G.Bosco 3/b" , "012468264" , "CAF CISL" , "45.3897" , "7.64915" , " "]
 
-classe166 = [  "  Torino "  ,  "  Str. comunale di Mirafiori 6a "  ,  "  011 3720910 "  ,  "  CAF ITALIA "   ,  " 45.01462919999999 "  ,  " 7.6271847000000434 ", " "]
+classe332 = ["DOMODOSSOLA" , "Via Gramsci 1" , "0324 240262" , "CAF CISL" , "46.1172" , "8.29267" , " "]
 
+classe333 = ["FOSSANO" , "Via Matteotti 46" , "0172 635299" , "CAF CISL" , "44.5483" , "7.7211" , " "]
 
-classe167 = [  "  Torino "  ,  "  Via Paisiello 2 d "  ,  "  011 850275 "  ,  "  CAF ITALIA "   ,  " 45.088823 "  ,  " 7.698146700000052 ", " "]
+classe334 = ["GALLIATE" , "Via Antonio Gramsci 31" , "0321861632" , "CAF CISL" , "45.4761" , "8.69587" , " "]
 
+classe335 = ["GATTINARA" , "Piazza Caslo 2/A" , "0163 833202" , "CAF CISL" , "45.6161" , "8.36873" , " "]
 
-classe168 = [  "  Torino "  ,  "  Via Rosario di S.Fe 25 b "  ,  "  011 5822017 "  ,  "  CAF ITALIA "   ,  " 45.034502 "  ,  " 7.652391399999942 ", " "]
+classe336 = ["GAVI" , "Via Mameli 60" , "0143 636330" , "CAF CISL" , "44.6883" , "8.80327" , " "]
 
+classe337 = ["GOZZANO" , "Via Regina Villa 82" , "032293672" , "CAF CISL" , "45.75" , "8.43369" , " "]
 
-classe169 = [  "  Torino "  ,  "  C.so Palermo 110A "  ,  "  011 2489202 "  ,  "  CAF ITALIA "   ,  " 45.0886123 "  ,  " 7.693421100000023 ", " "]
+classe338 = ["GRAVELLONA TOCE" , "Via Ripari 24" , "0323/864440" , "CAF CISL" , "45.9271" , "8.43341" , " "]
 
+classe339 = ["IVREA" , "P.zza La Marmora 14" , "0125 48837" , "CAF CISL" , "38.3363" , "16.3043" , " "]
 
-classe170 = [  "  Torino "  ,  "  C.so Fratelli Rosselli 99/18 "  ,  "  011 3017767 "  ,  "  CAF ITALIA "   ,  " 45.06045 "  ,  " 7.57325000000003 ", " "]
+classe340 = ["LEINI'" , "Via Roma 33" , "011 9974347" , "CAF CISL" , "45.1846" , "7.71271" , " "]
 
+classe341 = ["MOMO" , "Via Pernati 4" , "0321990001" , "CAF CISL" , "45.5736" , "8.5544" , " "]
 
-classe171 = [  "  Torino "  ,  "  Via F.lli Induno 20 B "  ,  "  011 3116145 "  ,  "  CAF ITALIA "   ,  " 45.0029705 "  ,  " 7.644638499999928 ", " "]
+classe342 = ["MONCALIERI" , "Via M.della Libertà 2 bis" , " 011 6433811" , "CAF CISL" , "44.9985" , "7.67964" , " "]
 
+classe343 = ["MONDOVI'" , "C.so Statuto 7" , "0174 41209" , "CAF CISL" , "44.3897" , "7.82031" , " "]
 
-classe172 = [  "  Torino "  ,  "  Via Collegno 22 D "  ,  "  011 4372477 "  ,  "  CAF ITALIA "   ,  " 45.0766601 "  ,  " 7.659897399999977 ", " "]
+classe344 = ["NICHELINO" , "VIA TORINO 190" , "011 6807448" , "CAF CISL" , "44.9949" , "7.64661" , " "]
 
+classe345 = ["NIZZA MONFERRATO" , "VIA PISTONE 71" , "0141/702363" , "CAF CISL" , "44.7747" , "8.35599" , " "]
 
-classe173 = [  "  Torino "  ,  "  Via Malta 22 "  ,  "  011 337340 "  ,  "  CAF ITALIA "   ,  " 45.059079 "  ,  " 7.647355699999935 ", " "]
+classe346 = ["NOVARA" , "Via dei Caccia 4/a" , "03216751035" , "CAF CISL" , "45.4497" , "8.62335" , " "]
 
+classe347 = ["NOVI LIGURE" , "VIA SOLFERINO 1" , "0143 2340" , "CAF CISL" , "44.7597" , "8.78905" , " "]
 
-classe174 = [  "  Torino "  ,  "  Via Giachino 24 F "  ,  "  011 3743691 "  ,  "  CAF ITALIA "   ,  " 45.091395 "  ,  " 7.676029599999993 ", " "]
+classe348 = ["OLEGGIO" , "Via Gramsci 66" , "0321998098" , "CAF CISL" , "45.5985" , "8.63784" , " "]
 
+classe349 = ["OMEGNA" , "Via parco Rodari 15" , "0323/642187" , "CAF CISL" , "45.8773" , "8.4096" , " "]
 
-classe175 = [  "  Novi Ligure "  ,  "  Via Garibaldi 81/B "  ,  "  014 3744216 "  ,  "  CAF CGN "   ,  " 44.7979455 "  ,  " 8.783588000000009 ", " "]
+classe350 = ["ORBASSANO" , "Via Caslazzo 50" , " 011 9017548" , "CAF CISL" , "45.0053" , "7.537" , " "]
 
+classe351 = ["OVADA" , "Via Ruffini 6" , "0143 80432" , "CAF CISL" , "44.6381" , "8.64228" , " "]
 
-classe176 = [  "  Novi Ligure "  ,  "  Viale Saffi 19 "  ,  "  014 13161 "  ,  "  CAF CGN "   ,  " 44.7633786 "  ,  " 8.786913700000014 ", " "]
+classe352 = ["PINEROLO" , "C.so Torino 18" , " 0121 361611" , "CAF CISL" , "44.8854" , "7.33075" , " "]
 
+classe353 = ["PONT CANAVESE" , "Piazza Europa 1" , "0124 860530" , "CAF CISL" , "45.42" , "7.59739" , " "]
 
-classe177 = [  "  Asti "  ,  "  Corso Alfieri 175 "  ,  "  014 131610 "  ,  "  CAF CGN "   ,  " 44.9012573 "  ,  " 8.207708599999933 ", " "]
+classe354 = ["RIVAROLO CANAVESE" , "Via Merlo 12" , "0124 29016" , "CAF CISL" , "45.3294" , "7.72432" , " "]
 
+classe355 = ["ROCCHETTA TANARO" , "Piazza Piacentino 1" , "0141/644814" , "CAF CISL" , "44.8584" , "8.34575" , " "]
 
-classe178 = [  "  Asti "  ,  "  Corso Alessandria 121 "  ,  "  014 1092364 "  ,  "  CAF CGN "   ,  " 44.9042468 "  ,  " 8.218362399999933 ", " "]
+classe356 = ["ROMAGNANO SESIA" , "Via Spianata Fiera 8" , "0163 835430" , "CAF CISL" , "45.6335" , "8.38174" , " "]
 
+classe357 = ["S.DAMIANO D'ASTI" , "Via San Giuseppe 6" , "0141/971348" , "CAF CISL" , "44.8351" , "8.06459" , " "]
 
-classe179 = [  "  Biella "  ,  "  Piazza San Paolo 2 "  ,  "  015 402231 "  ,  "  CAF CGN "   ,  " 45.557014 "  ,  " 8.065996199999972 ", " "]
+classe358 = ["SALUZZO" , "C.so Piemonte 39" , "0175 43815" , "CAF CISL" , "44.6467" , "7.48784" , " "]
 
+classe359 = ["SAN MAURIZIO D'OPAGLIO" , "Via Roma 32" , "032296173" , "CAF CISL" , "45.7751" , "8.38992" , " "]
 
-classe180 = [  "  Vigliano Biellese "  ,  "  Via Milano 215 "  ,  "  015 811858 "  ,  "  CAF CGN "   ,  " 45.5624032 "  ,  " 8.109787600000004 ", " "]
+classe360 = ["SANDIGLIANO" , "Via IV Novembre 1" , "015 2493377" , "CAF CISL" , "45.5213" , "8.07704" , " "]
 
+classe361 = ["SANTHIA'" , "Via G.Matteotti 27" , "0161 930280" , "CAF CISL" , "45.3641" , "8.17569" , " "]
 
-classe181 = [  "  Alba "  ,  "  Corso Piave 3 "  ,  "  017 3287017 "  ,  "  CAF CGN "   ,  " 44.6957664 "  ,  " 8.031851700000061 ", " "]
+classe362 = ["SAVIGLIANO" , "Via Cernaia 11" , "0172 31.501" , "CAF CISL" , "44.6485" , "7.65407" , " "]
 
+classe363 = ["SETTIMO TORINESE" , "P.za Vittorio Veneto 6" , " 011 8169811" , "CAF CISL" , "45.1364" , "7.77091" , " "]
 
-classe182 = [  "  Cameri "  ,  "  Via P.R. Giuliani 6/B "  ,  "  032 1517756 "  ,  "  CAF CGN "   ,  " 45.5015988 "  ,  " 8.66291810000007 ", " "]
+classe364 = ["STRAMBINO" , "Via del Cotonificio 59" , "0125 713025" , "CAF CISL" , "45.3817" , "7.88436" , " "]
 
+classe365 = ["SUSA-CONDOVE" , "Via Norberto Rosa 3" , "0122 622373" , "CAF CISL" , "45.1136" , "7.31323" , " "]
 
-classe183 = [  "  Novara "  ,  "  Via Crespi 30 "  ,  "  032 11990200 "  ,  "  CAF CGN "   ,  " 45.4355024 "  ,  " 8.612603799999988 ", " "]
+classe366 = ["TORTONA" , "Corso Repubblica 48" , "0131 861908" , "CAF CISL" , "44.8989" , "8.86083" , " "]
 
+classe367 = ["TRECATE" , "Via Garibaldi 27" , "0321730161" , "CAF CISL" , "45.4332" , "8.73546" , " "]
 
-classe184 = [  "  Alpignano "  ,  "  Via F.Lli Revelli 11 "  ,  "  011 9672652 "  ,  "  CAF CGN "   ,  " 45.09294879999999 "  ,  " 7.523703999999952 ", " "]
+classe368 = ["TRINO" , "Corso Roma 5" , "0161 801183" , "CAF CISL" , "45.1916" , "8.29553" , " "]
 
+classe369 = ["VALENZA" , "Via Alfieri 18/20" , "0131 941236" , "CAF CISL" , "45.0129" , "8.64636" , " "]
 
-classe185 = [  "  Caluso "  ,  "  Via Martiri D'italia 22/A "  ,  "  011 9833572 "  ,  "  CAF CGN "   ,  " 45.30202329999999 "  ,  " 7.892381900000032 ", " "]
+classe370 = ["VARALLO" , "Via Stampa 1" , "0163 51185" , "CAF CISL" , "45.8132" , "8.25789" , " "]
 
+classe371 = ["VENARIA" , "P.za Annunziata 5" , " 011 4593965" , "CAF CISL" , "45.1341" , "7.62877" , " "]
 
-classe186 = [  "  Grugliasco "  ,  "  Viale Gramsci 69 "  ,  "  011 786308 "  ,  "  CAF CGN "   ,  " 45.0681424 "  ,  " 7.579325899999958 ", " "]
+classe372 = ["VERBANIA" , "Via Farinelli 6/A" , "0323 407033" , "CAF CISL" , "45.9433" , "8.56107" , " "]
 
+classe373 = ["VERCELLI" , "Via Laviny 38" , "0161 255400" , "CAF CISL" , "45.3261" , "8.42097" , " "]
 
-classe187 = [  "  Moncalieri "  ,  "  Via Vittorio Alfieri 17 "  ,  "  011 6408142 "  ,  "  CAF CGN "   ,  " 45.00083 "  ,  " 7.68396000000007 ", " "]
+classe374 = ["VESPOLATE" , "Via Mazzini 14" , "0321882800" , "CAF CISL" , "45.349" , "8.66971" , " "]
 
+classe375 = ["VIGLIANO BIELLESE" , "Via Milano 61" , "015 9555452" , "CAF CISL" , "45.5646" , "8.09732" , " "]
 
-classe188 = [  "  Orbassano "  ,  "  Strada Torino 43/36 "  ,  "  011 19886250 "  ,  "  CAF CGN "   ,  " 45.0159556 "  ,  " 7.568568899999946 ", " "]
+classe376 = ["VILLANOVA D'ASTI" , "Via O.Blandino 15" , "0141 948588" , "CAF CISL" , "44.9428" , "7.93893" , " "]
 
-
-classe189 = [  "  Poirino "  ,  "  Via Pralormo 9 "  ,  "  011 9453295 "  ,  "  CAF CGN "   ,  " 44.91757 "  ,  " 7.848160000000007 ", " "]
-
-
-classe190 = [  "  Rivoli "  ,  "  Via Pavia 11/B "  ,  "  011 9575746 "  ,  "  CAF CGN "   ,  " 45.0689803 "  ,  " 7.552174199999968 ", " "]
-
-
-classe191 = [  "  Torino "  ,  "  Via Perrer 22/A "  ,  "  011 19506147 "  ,  "  CAF CGN "   ,  " 45.0668383 "  ,  " 7.645913299999961 ", " "]
-
-
-classe192 = [  "  Torino "  ,  "  Via Avogadro 16 "  ,  "  011 5619494 "  ,  "  CAF CGN "   ,  " 45.06848369999999 "  ,  " 7.671024799999941 ", " "]
-
-
-classe193 = [  "  Torino "  ,  "  Via Del Carmine10 "  ,  "  011 19826097 "  ,  "  CAF CGN "   ,  " 45.0758644 "  ,  " 7.675123699999972 ", " "]
-
-
-classe194 = [  "  Torino "  ,  "  Via Eusebio Bava 27/E "  ,  "  011 0463965 "  ,  "  CAF CGN "   ,  " 45.0682363 "  ,  " 7.700639599999931 ", " "]
-
-
-classe195 = [  "  Torino "  ,  "  Via Belfiore 55 "  ,  "  011 6689082 "  ,  "  CAF CGN "   ,  " 45.0520568 "  ,  " 7.677699500000017 ", " "]
-
-
-classe196 = [  "  Torino "  ,  "  Corso Massimo D'azeglio 70 "  ,  "  011 6693555 "  ,  "  CAF CGN "   ,  " 45.04832 "  ,  " 7.679629999999975 ", " "]
-
-
-classe197 = [  "  Torino "  ,  "  Via Cristoforo Colombo 1 "  ,  "  011 5183679 "  ,  "  CAF CGN "   ,  " 45.0554697 "  ,  " 7.666865199999961 ", " "]
-
-
-classe198 = [  "  Torino "  ,  "  Via Cristoforo Colombo 9 "  ,  "  011 19701494 "  ,  "  CAF CGN "   ,  " 45.0558838 "  ,  " 7.665721099999928 ", " "]
-
-
-classe199 = [  "  Torino "  ,  "  Corso De Nicola 42 "  ,  "  011 500955 "  ,  "  CAF CGN "   ,  " 45.0516092 "  ,  " 7.657739799999945 ", " "]
-
-
-classe200 = [  "  Torino "  ,  "  Corso Duca Degli Abruzzi 106 "  ,  "  011 3828085 "  ,  "  CAF CGN "   ,  " 45.0533213 "  ,  " 7.65585329999999 ", " "]
-
-
-classe201 = [  "  Torino "  ,  "  Via Guido Reni 221 "  ,  "  011 3139945 "  ,  "  CAF CGN "   ,  " 45.0391749 "  ,  " 7.628863499999966 ", " "]
-
-
-classe202 = [  "  Torino "  ,  "  Corso Ferrucci 52/F "  ,  "  011 4276575 "  ,  "  CAF CGN "   ,  " 45.068209 "  ,  " 7.654790700000035 ", " "]
-
-
-classe203 = [  "  Torino "  ,  "  Corso Racconigi 180/9 "  ,  "  011 3828428 "  ,  "  CAF CGN "   ,  " 45.0588647 "  ,  " 7.645367299999975 ", " "]
-
-
-classe204 = [  "  Torino "  ,  "  Corso FranCIA 84 "  ,  "  011 740028 "  ,  "  CAF CGN "   ,  " 45.0761619 "  ,  " 7.653332200000023 ", " "]
-
-
-classe205 = [  "  Torino "  ,  "  Via CiBrario 83 "  ,  "  011 7770063 "  ,  "  CAF CGN "   ,  " 45.0820803 "  ,  " 7.6538805999999795 ", " "]
-
-
-classe206 = [  "  Torino "  ,  "  Via Principi D'acaja 2 "  ,  "  011 4374751 "  ,  "  CAF CGN "   ,  " 45.07800040000001 "  ,  " 7.664767900000015 ", " "]
-
-
-classe207 = [  "  Torino "  ,  "  Via CiBrario 14 "  ,  "  011 19715423 "  ,  "  CAF CGN "   ,  " 45.0780085 "  ,  " 7.6662374 ", " "]
-
-
-classe208 = [  "  Torino "  ,  "  Corso Lecce 75 "  ,  "  011 747886 "  ,  "  CAF CGN "   ,  " 45.0840627 "  ,  " 7.6488789 ", " "]
-
-
-classe209 = [  "  Torino "  ,  "  Via Saorgio 168 "  ,  "  011 2204552 "  ,  "  CAF CGN "   ,  " 45.1040959 "  ,  " 7.669914699999936 ", " "]
-
-
-classe210 = [  "  Torino "  ,  "  Corso Cincinnato 140 "  ,  "  011 7396313 "  ,  "  CAF CGN "   ,  " 45.09866760000001 "  ,  " 7.642229100000009 ", " "]
-
-
-classe211 = [  "  Torino "  ,  "  Via Montanaro 48 "  ,  "  011 2478289 "  ,  "  CAF CGN "   ,  " 45.09269 "  ,  " 7.694970000000012 ", " "]
-
-
-classe212 = [  "  Torino "  ,  "  Via Pertengo 11/A "  ,  "  011 2673651 "  ,  "  CAF CGN "   ,  " 45.1044695 "  ,  " 7.694266800000037 ", " "]
-
-
-classe213 = [  "  Torino "  ,  "  Via Tronzano 28c "  ,  "  011 2058623 "  ,  "  CAF CGN "   ,  " 45.0993005 "  ,  " 7.6971251999999595 ", " "]
-
-
-classe214 = [  "  Torre Pellice "  ,  "  Via Matteo Gay 9 "  ,  "  0121 91848 "  ,  "  CAF CGN "   ,  " 44.8190792 "  ,  " 7.205044899999962 ", " "]
-
-
-classe215 = [  "  Vigone "  ,  "  Via Luisia 7 "  ,  "  011 9809478 "  ,  "  CAF CGN "   ,  " 44.8435452 "  ,  " 7.492951299999959 ", " "]
-
-
-classe216 = [  "  Gravellona Toce "  ,  "  Piazza Resistenza 19 "  ,  "  032 3840849 "  ,  "  CAF CGN "   ,  " 45.92801980000001 "  ,  " 8.431391399999939 ", " "]
-
-
-classe217 = [  "  Borgosesia "  ,  "  Viale Duca D'aosta 97 "  ,  "  037 03292370 "  ,  "  CAF CGN "   ,  " 45.7162832 "  ,  " 8.281510199999957 ", " "]
-
-
-classe218 = [  "  Vercelli "  ,  "  Corso Fiume 27 "  ,  "  016 21257466 "  ,  "  CAF CGN "   ,  " 45.3247485 "  ,  " 8.414456400000063 ", " "]
-
-
-classe219 = [  "  Alessandria "  ,  "  Via Trotti 122 "  ,  "  0131-43151 "  ,  "  CAAF CONFAGRICOLTURA "   ,  " 44.9097644 "  ,  " 8.611013899999989 ", " "]
-
-
-classe220 = [  "  Asti "  ,  "  Via Monti 15 "  ,  "   0141434943 "  ,  "  CAAF CONFAGRICOLTURA "   ,  " 45.03996000000001 "  ,  " 8.098549999999932 ", " "]
-
-
-classe221 = [  "  Cuneo "  ,  "  Corso IV Novembr 8 "  ,  "  0171-692143 "  ,  "  CAAF CONFAGRICOLTURA "   ,  " 44.3903951 "  ,  " 7.5416241000000355 ", " "]
-
-
-classe222 = [  "  Novara "  ,  "  Via Ravizza 4 "  ,  "  0321620787 "  ,  "  CAAF CONFAGRICOLTURA "   ,  " 45.4465436 "  ,  " 8.617668999999978 ", " "]
-
-
-classe223 = [  "  Torino "  ,  "  C.so Vittorio Emanuel 58 "  ,  "  011-5119150 "  ,  "  CAAF CONFAGRICOLTURA "   ,  " 45.06331309999999 "  ,  " 7.67826690000004 ", " "]
-
-
-classe224 = [  "  Torino "  ,  "  Via Sacchi 39 "  ,  "  0116653472 "  ,  "  CAAF CONFAGRICOLTURA "   ,  " 45.057762 "  ,  " 7.673813800000062 ", " "]
-
-
-classe225 = [  "  Vercelli "  ,  "  Piazza E. Zumaglini 14 "  ,  "  0161-250831 "  ,  "  CAAF CONFAGRICOLTURA "   ,  " 45.32484119999999 "  ,  " 8.41992270000003 ", " "]
-
-
-classe226 = [  "  Torino "  ,  "  Via Bologna 11 "  ,  "  011 4364269 "  ,  "  CAF UIL "   ,  " 45.0804609 "  ,  " 7.690803899999992 ", " "]
-
-
-classe227 = [  "  Torino "  ,  "  Via Sidoli 16 "  ,  "  011 3161714 "  ,  "  CAF UIL "   ,  " 45.0267347 "  ,  " 7.646525999999994 ", " "]
-
-
-classe228 = [  "  Torino "  ,  "  Via Bologna 15 "  ,  "  011 280392 "  ,  "  CAF UIL "   ,  " 45.0806907 "  ,  " 7.691317499999968 ", " "]
-
-
-classe229 = [  "  Torino "  ,  "  Via Luini 52 "  ,  "  011 2215594 "  ,  "  CAF UIL "   ,  " 45.0973176 "  ,  " 7.665898999999968 ", " "]
-
-
-classe230 = [  "  Torino "  ,  "  Via Ormea 40 "  ,  "  011 6502094 "  ,  "  CAF CONFSAL "   ,  " 45.0555972 "  ,  " 7.682940199999962 ", " "]
-
-
-classe231 = [  "  Torino "  ,  "  Via Sacchi 45 "  ,  "  011 5097310 "  ,  "  CAF CONFSAL "   ,  " 45.0571714 "  ,  " 7.673589499999935 ", " "]
-
-
-classe232 = [  "  Asti "  ,  "  Via Felice Cavallotti 41 "  ,  "  014 1380406 "  ,  "  CAF COLDIRETTI "   ,  " 44.8975802 "  ,  " 8.214433500000041 ", " "]
-
-
-classe233 = [  "  NIZZA MONFERRATO (AT)  "  ,  "   Corso Aqui 42/44 "  ,  "  0141 7211171 "  ,  "  CAF COLDIRETTI "   ,  " 44.77135200000001 "  ,  " 8.362222999999972 ", " "]
-
-
-classe234 = [  "  SAN DAMIANO D'Asti (AT)  "  ,  "   Via Roma 23 "  ,  "  0141 971000 "  ,  "  CAF COLDIRETTI "   ,  " 44.83417000000001 "  ,  " 8.064679899999987 ", " "]
-
-
-classe235 = [  "  MONCALVO (AT)  "  ,  "   Piazza Carlo Alberto 25 "  ,  "  0141 916100 "  ,  "  CAF COLDIRETTI "   ,  " 45.05094 "  ,  " 8.266190000000051 ", " "]
-
-
-classe236 = [  "  CANELLI (AT)  "  ,  "   Cassinasco 11/13 "  ,  "  0141 823590 "  ,  "  CAF COLDIRETTI "   ,  " 44.714682 "  ,  " 8.290291000000025 ", " "]
-
-
-classe237 = [  "  CASTELNUOVO DON BOSCO (AT)  "  ,  "   Europa 12 "  ,  "  011 987683 "  ,  "  CAF COLDIRETTI "   ,  " 45.041418 "  ,  " 7.963792000000012 ", " "]
-
-
-classe238 = [  "  Alessandria "  ,  "  Corso Crimea 69 "  ,  "  0131 235891 "  ,  "  CAF COLDIRETTI "   ,  " 44.9100923 "  ,  " 8.608858000000055 ", " "]
-
-
-classe239 = [  "  TORTONA (AL)  "  ,  "   Via San Marziano 4 "  ,  "  0131 235891 "  ,  "  CAF COLDIRETTI "   ,  " 44.89887 "  ,  " 8.86814000000004 ", " "]
-
-
-classe240 = [  "  Novi LIGURE (AL)  "  ,  "   Via Mazzini 50/c "  ,  "  0131 235891 "  ,  "  CAF COLDIRETTI "   ,  " 44.763908 "  ,  " 8.786562900000035 ", " "]
-
-
-classe241 = [  "  CERRINA (AL)  "  ,  "   Via Nazionale 36 "  ,  "  0131 235891 "  ,  "  CAF COLDIRETTI "   ,  " 45.1151098 "  ,  " 8.213359099999934 ", " "]
-
-
-classe242 = [  "  CASTELNUOVO SCRIVIA (AL)  "  ,  "   Via Solferino 53 "  ,  "  0131 235891 "  ,  "  CAF COLDIRETTI "   ,  " 44.981657 "  ,  " 8.877539999999954 ", " "]
-
-
-classe243 = [  "  Casale Monferrato (AL)  "  ,  "   Viale Cavalli D'Olivola 6 "  ,  "  0131 235891 "  ,  "  CAF COLDIRETTI "   ,  " 45.132617 "  ,  " 8.45086200000003 ", " "]
-
-
-classe244 = [  "  ACQUI TERME (AL)  "  ,  "   Corso Maggiorino Ferraris 52 "  ,  "  0131 235891 "  ,  "  CAF COLDIRETTI "   ,  " 44.67864669999999 "  ,  " 8.466850300000033 ", " "]
-
-
-classe245 = [  "  Cuneo "  ,  "  Piazza Foro Boario n 18 "  ,  "  0171 447238 "  ,  "  CAF COLDIRETTI "   ,  " 44.3921115 "  ,  " 7.547007200000053 ", " "]
-
-
-classe246 = [  "  Cuneo "  ,  "  Piazza Foro Boario n 18 "  ,  "  0171 447227 "  ,  "  CAF COLDIRETTIS "   ,  " 44.3921115 "  ,  " 7.547007200000053 ", " "]
-
-
-classe247 = [  "  Cuneo "  ,  "  Piazza Europa n "  ,  "  0171 698026 "  ,  "  CAF COLDIRETTI "   ,  " 44.384913 "  ,  " 7.8338315999999395 ", " "]
-
-
-classe248 = [  "  Alba (CN)  "  ,  "   Corso Matteotti n 7 "  ,  "  0173 292711 "  ,  "  CAF COLDIRETTI "   ,  " 44.701322 "  ,  " 8.03132919999996 ", " "]
-
-
-classe249 = [  "  Bra (CN)  "  ,  "   Via A. Mathis  3 "  ,  "  0172 429411 "  ,  "  CAF COLDIRETTI "   ,  " 44.6959319 "  ,  " 7.850007000000005 ", " "]
-
-
-classe250 = [  "  Ceva (CN "  ,  "  "  ,  "   Piazza Cappuccini "  ,  "  0174 701103 "   ,  " 44.38516000000001 "  ,  " 8.038559999999961 ", " "]
-
-
-classe251 = [  "  Fossano (CN)  "  ,  "   Via Foro Boario 3 "  ,  "  0172 698711 "  ,  "  CAF COLDIRETTI "   ,  " 44.5434633 "  ,  " 7.721127900000056 ", " "]
-
-
-classe252 = [  "  Saluzzo (CN)  "  ,  "   Via Circonvallazione 25 H "  ,  "  0175 210211 "  ,  "  CAF COLDIRETTI "   ,  " 44.6494829 "  ,  " 7.49101799999994 ", " "]
-
-
-classe253 = [  "  Savigliano (CN)  "  ,  "   Piazza Schiaparelli 10 "  ,  "  0172 727000 "  ,  "  CAF COLDIRETTI "   ,  " 44.65038939999999 "  ,  " 7.653706199999988 ", " "]
-
-
-classe254 = [  "  Mondovì "  ,  "  Via Biglia 5 "  ,  "  017 4560211 "  ,  "  CAF COLDIRETTI "   ,  " 44.391667 "  ,  " 7.821114999999963 ", " "]
-
-
-classe255 = [  "  Vercelli "  ,  "  Piazza Zumaglini 14 "  ,  "  016 1261600 "  ,  "  CAF COLDIRETTI "   ,  " 45.32484119999999 "  ,  " 8.41992270000003 ", " "]
-
-
-classe256 = [  "  Biella "  ,  "  Via Maestri del Commercio "  ,  "  015 404532 "  ,  "  CAF COLDIRETTI "   ,  " 45.5558045 "  ,  " 8.049604999999929 ", " "]
-
-
-classe257 = [  "  Borgosesia (VC)  "  ,  "   Viale Varallo "  ,  "  016 325250 "  ,  "  CAF COLDIRETTI "   ,  " 45.7193919 "  ,  " 8.273323699999992 ", " "]
-
-
-classe258 = [  "  CIGLIANO ,(VC)  "  ,  "   Piazza Don G.Ferraris 1 "  ,  "  016 144700 "  ,  "  CAF COLDIRETTI "   ,  " 45.309402 "  ,  " 8.018678000000023 ", " "]
-
-
-classe259 = [  "  Santhia (VC)  "  ,  "   Via Matteotti 58 "  ,  "  016 1930071 "  ,  "  CAF COLDIRETTI "   ,  " 45.3647696 "  ,  " 8.17215310000006 ", " "]
-
-
-classe260 = [  "  Verbania (VB)  "  ,  "   Via G. Rigola 44 "  ,  "  032 3516098 "  ,  "  CAF COLDIRETTI "   ,  " 45.9339992 "  ,  " 8.569847999999979 ", " "]
-
-
-classe261 = [  "  Novara (NO)  "  ,  "   Via XX Settembre "  ,  "  032 1674219 "  ,  "  CAF COLDIRETTI "   ,  " 45.446952 "  ,  " 8.614721299999928 ", " "]
-
-
-classe262 = [  "  Borgomanero (NO)  "  ,  "   Via Dei Mille 24 "  ,  "  032 282733 "  ,  "  CAF COLDIRETTI "   ,  " 45.697504 "  ,  " 8.462291999999934 ", " "]
-
-
-classe263 = [  "  Domodossola (VB)  "  ,  "   Borgata Casa delle Rane 10 "  ,  "  032 4242559 "  ,  "  CAF COLDIRETTI "   ,  " 46.100167 "  ,  " 8.29453680000006 ", " "]
-
-
-classe264 = [  "  Oleggio (NO)  "  ,  "   Largo Bersaglieri 1 "  ,  "  032 191650 "  ,  "  CAF COLDIRETTI "  ,  " 45.59716 "  ,  "  8.634360000000015 ", " "]
-
+classe377 = ["VOLVERA" , "c/o Comune via Ponsati 34" , "011 9017548" , "CAF CISL" , "44.9549" , "7.51218" , " "]
 
 matrix = [classe0 ,
 
@@ -1585,8 +1546,232 @@ classe262 ,
 classe263 ,
 
 
-classe264]
+classe264,
 
+classe265,
 
+classe266,
+
+classe267,
+
+classe268,
+
+classe269,
+
+classe270,
+
+classe271,
+
+classe272,
+
+classe273,
+
+classe274,
+
+classe275,
+
+classe276,
+
+classe277,
+
+classe278,
+
+classe279,
+
+classe280,
+
+classe281,
+
+classe282,
+
+classe283,
+
+classe284,
+
+classe285,
+
+classe286,
+
+classe287,
+
+classe288,
+
+classe289,
+
+classe290,
+
+classe291,
+
+classe292,
+
+classe293,
+
+classe294,
+
+classe295,
+
+classe296,
+
+classe297,
+
+classe298,
+
+classe299,
+
+classe300,
+
+classe301,
+
+classe302,
+
+classe303,
+
+classe304,
+
+classe305,
+
+classe306,
+
+classe307,
+
+classe308,
+
+classe309,
+
+classe310,
+
+classe311,
+
+classe312,
+
+classe313,
+
+classe314,
+
+classe315,
+
+classe316,
+
+classe317,
+
+classe318,
+
+classe319,
+
+classe320,
+
+classe321,
+
+classe322,
+
+classe323,
+
+classe324,
+
+classe325,
+
+classe326,
+
+classe327,
+
+classe328,
+
+classe329,
+
+classe330,
+
+classe331,
+
+classe332,
+
+classe333,
+
+classe334,
+
+classe335,
+
+classe336,
+
+classe337,
+
+classe338,
+
+classe339,
+
+classe340,
+
+classe341,
+
+classe342,
+
+classe343,
+
+classe344,
+
+classe345,
+
+classe346,
+
+classe347,
+
+classe348,
+
+classe349,
+
+classe350,
+
+classe351,
+
+classe352,
+
+classe353,
+
+classe354,
+
+classe355,
+
+classe356,
+
+classe357,
+
+classe358,
+
+classe359,
+
+classe360,
+
+classe361,
+
+classe362,
+
+classe363,
+
+classe364,
+
+classe365,
+
+classe366,
+
+classe367,
+
+classe368,
+
+classe369,
+
+classe370,
+
+classe371,
+
+classe372,
+
+classe373,
+
+classe374,
+
+classe375,
+
+classe376,
+
+classe377]
 
 
